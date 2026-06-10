@@ -29,8 +29,11 @@ jobs:
           node-version: 22
           cache: npm
 
+      # Use `npm install` (not `npm ci`): Tailwind v4's native oxide binaries
+      # pull OS-specific optional deps, so a lockfile generated on one OS can
+      # fail `npm ci`'s strict cross-platform validation on the Linux runner.
       - name: Install dependencies
-        run: npm ci
+        run: npm install --no-audit --no-fund
 
       - name: Build
         run: npm run build
