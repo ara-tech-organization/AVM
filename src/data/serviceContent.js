@@ -1,0 +1,2546 @@
+import {
+  Stethoscope,
+  Syringe,
+  GraduationCap,
+  Cpu,
+  HeartHandshake,
+  Smile,
+  ShieldCheck,
+  Crown,
+  Layers,
+  Frame,
+  Wrench,
+  Sparkles,
+  Gem,
+  ClipboardList,
+  IndianRupee,
+  Activity,
+  BadgeCheck,
+  Microscope,
+  Zap,
+  Brush,
+} from 'lucide-react'
+
+/**
+ * Long-form, SEO-optimised content keyed by service slug. When a slug has an
+ * entry here, the /services/:slug route renders the rich editorial layout;
+ * otherwise it falls back to the concise generic template.
+ *
+ * Section shapes consumed by ServiceDetail:
+ *   { type: 'text',  heading, paragraphs[] }
+ *   { type: 'list',  heading, intro?, items[], outro? }
+ *   { type: 'cards', heading, items: [{ icon?, title, body }], outro? }
+ *   { type: 'steps', heading, items: [{ title, body }] }
+ *   { type: 'tips',  heading, body?, items[] }
+ */
+export const serviceContent = {
+  'tooth-extraction': {
+    seo: {
+      title: 'Best Tooth Extraction in Chennai | AVM Smiles',
+      description:
+        'Get the best tooth extraction in Chennai at AVM Smiles. Safe, comfortable treatment by experienced dentists. Visit a trusted tooth extraction clinic near Chennai.',
+      keywords: 'Tooth Extraction in Chennai, Tooth Extraction near Chennai',
+    },
+    hero: {
+      h1: 'Tooth Extraction in Chennai',
+      lead: 'Safe, comfortable and precise tooth extraction by experienced dentists — for simple removals and complex wisdom teeth alike.',
+    },
+    intro: {
+      heading: 'Expert Tooth Extraction Services at AVM Smiles',
+      paragraphs: [
+        'If you are suffering from severe tooth pain, infection or a damaged tooth, AVM Smiles offers safe and effective Tooth Extraction in Chennai with modern technology and advanced dental techniques.',
+        'Our experienced and friendly dentists provide personalized care to make your treatment more comfortable. From simple extractions to complex wisdom tooth removal, our clinic is the reliable option for Tooth Extraction near Chennai.',
+      ],
+    },
+    facts: [
+      { label: 'Procedure time', value: '30–45 mins' },
+      { label: 'Anaesthesia', value: 'Local (pain-free)' },
+      { label: 'Recovery', value: '3–7 days' },
+    ],
+    sections: [
+      {
+        type: 'text',
+        heading: 'What is Tooth Extraction?',
+        paragraphs: [
+          'Tooth extraction is the removal of a tooth from its bony socket. At AVM Smiles, we perform Tooth Extraction in Chennai with precision and care to relieve pain, prevent infections and safeguard your overall oral health.',
+          'Our comprehensive evaluation and customized treatment approach helps patients looking for reliable Tooth Extraction near Chennai feel informed and at ease throughout the process.',
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'When is Tooth Extraction Necessary?',
+        intro: 'Your dentist may recommend extraction if you have:',
+        items: [
+          'Severe tooth decay',
+          'Advanced gum disease',
+          'Impacted wisdom teeth',
+          'Broken or fractured teeth',
+          'Dental infections',
+          'Overcrowded teeth before orthodontic treatment',
+          'Trauma-related tooth damage',
+        ],
+        outro:
+          'Early treatment can help preserve the health of surrounding teeth and prevent further complications.',
+      },
+      {
+        type: 'cards',
+        heading: 'Types of Tooth Extractions',
+        items: [
+          {
+            icon: Syringe,
+            title: 'Simple Tooth Extraction',
+            body: 'Performed when the tooth is visible and can be easily removed with local anaesthesia — quick, gentle and comfortable.',
+          },
+          {
+            icon: Stethoscope,
+            title: 'Surgical Tooth Extraction',
+            body: 'Recommended for impacted, broken or difficult-to-access teeth, including wisdom teeth, using specialised techniques.',
+          },
+        ],
+        outro:
+          'Our specialists perform both procedures safely and efficiently, making AVM Smiles a preferred destination for Tooth Extraction near Chennai.',
+      },
+      {
+        type: 'text',
+        heading: 'Wisdom Tooth Extraction',
+        paragraphs: [
+          'Wisdom teeth that aren’t coming in properly can cause pain, swelling, crowding and infections. Our experienced dental team offers advanced wisdom tooth removal procedures designed to ensure patient comfort and faster recovery.',
+        ],
+      },
+      {
+        type: 'steps',
+        heading: 'Tooth Extraction Procedure',
+        items: [
+          {
+            title: 'Consultation & Diagnosis',
+            body: 'A full dental exam and digital X-rays help us determine the best treatment plan for you.',
+          },
+          {
+            title: 'Local Anaesthesia',
+            body: 'The treatment area is numbed so that you will not feel any discomfort.',
+          },
+          {
+            title: 'Tooth Removal',
+            body: 'The dentist carefully extracts the affected tooth using specialised instruments.',
+          },
+          {
+            title: 'Post-Treatment Care',
+            body: 'Detailed aftercare instructions are provided to support smooth healing and recovery.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Benefits of Tooth Extraction',
+        items: [
+          'Relieves severe tooth pain',
+          'Prevents the spread of infection',
+          'Protects neighbouring teeth',
+          'Improves overall oral health',
+          'Creates space for orthodontic treatment',
+          'Prevents complications caused by impacted teeth',
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Why Choose AVM Smiles?',
+        items: [
+          {
+            icon: GraduationCap,
+            title: 'Experienced Dentists',
+            body: 'Our dentists are trained to perform both simple and surgical extractions.',
+          },
+          {
+            icon: Cpu,
+            title: 'Advanced Technology',
+            body: 'We use modern diagnostic tools and treatment techniques for precise care.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Comfortable Experience',
+            body: 'Patient comfort and safety are always our first priority in every procedure.',
+          },
+          {
+            icon: Smile,
+            title: 'Personalized Care',
+            body: 'Every treatment plan is customised to the unique needs of your oral health.',
+          },
+          {
+            icon: ShieldCheck,
+            title: 'Strict Sterilization',
+            body: 'We maintain a clean, hygienic environment with international safety protocols.',
+          },
+        ],
+      },
+      {
+        type: 'tips',
+        heading: 'Recovery After Tooth Extraction',
+        body: 'Following the dentist’s instructions can help speed up recovery and reduce complications.',
+        items: [
+          'Eat soft foods for the first few days',
+          'Avoid smoking and alcohol',
+          'Maintain proper oral hygiene',
+          'Take prescribed medications as directed',
+          'Avoid strenuous activities immediately after treatment',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          'I had a lot of pain in my teeth and got my extraction done at AVM Smiles. The procedure was painless and recovery was very smooth.',
+        name: 'Priya S.',
+        location: 'Chennai',
+        initials: 'PS',
+      },
+      {
+        quote:
+          'Very professional doctors. I was nervous, but they made my tooth extraction a comfortable and stress-free experience.',
+        name: 'Arun K.',
+        location: 'Avinashi Road',
+        initials: 'AK',
+      },
+      {
+        quote:
+          'I visited for my wisdom tooth removal and I highly recommend AVM Smiles for anyone looking for Tooth Extraction near Chennai.',
+        name: 'Mohammed R.',
+        location: 'Coimbatore',
+        initials: 'MR',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Does a tooth extraction hurt?',
+        a: 'AVM Smiles uses local anaesthesia for modern tooth extractions, so the experience is comfortable and almost pain-free. Most patients feel only mild pressure during treatment.',
+      },
+      {
+        q: 'How long is the recovery time from a tooth extraction?',
+        a: 'Recovery generally takes 3–7 days depending on the condition of the tooth and the type of extraction. Following the post-treatment care instructions helps speed up healing.',
+      },
+      {
+        q: 'What should I eat after a tooth extraction?',
+        a: 'Stick to soft foods such as yogurt, soups and mashed potatoes for the first 24–48 hours. Avoid spicy, hard and crunchy foods to protect the extraction site.',
+      },
+      {
+        q: 'When is a surgical tooth extraction necessary?',
+        a: 'Impacted wisdom teeth, severely damaged teeth, or teeth broken below the gum line may require surgical extraction. Your dentist will assess the case and advise the best course of treatment.',
+      },
+      {
+        q: 'What habits should I avoid after a tooth extraction?',
+        a: 'Avoid smoking, alcohol, strenuous exercise and very hot foods for a few days after the procedure. These precautions reduce the risk of complications and support proper healing.',
+      },
+      {
+        q: 'Does AVM Smiles provide wisdom tooth extraction in Chennai?',
+        a: 'Yes. We offer expert wisdom tooth extraction in Chennai for both simple and surgical procedures, and our experienced dental team ensures safe treatment and fast recovery.',
+      },
+    ],
+    closing: {
+      heading: 'Book Your Appointment Today',
+      body: 'If you are searching for Tooth Extraction near Chennai online, AVM Smiles provides reliable dental services with a patient-centric approach. Call to schedule your appointment today and enjoy quality dentistry from experienced dentists — with modern techniques and long-term solutions for your oral health.',
+    },
+  },
+
+  'dental-crowns-and-bridges': {
+    seo: {
+      title: 'Best Dental Bridges and Crowns in Chennai | AVM Smiles',
+      description:
+        'AVM Smiles offers high-quality Dental Bridges & Crowns in Chennai to replace damaged or missing teeth with durable, natural-looking restorations.',
+      keywords:
+        'Dental Bridges & Crowns in Chennai, Dental Bridges & Crowns near Chennai',
+    },
+    hero: {
+      h1: 'Dental Bridges & Crowns in Chennai',
+      lead: 'Durable, natural-looking crowns and bridges to restore damaged or missing teeth — crafted with premium materials and modern techniques.',
+    },
+    intro: {
+      heading: 'Restore Your Smile with Expert Dental Bridges & Crowns at AVM Smiles',
+      paragraphs: [
+        'AVM Smiles offers advanced Dental Bridges & Crowns in Chennai for damaged, decayed or missing teeth — restoring your smile, improving chewing function and supporting overall oral health. Our experienced dentists use the best materials and modern techniques for results that last and look natural.',
+        'We also provide trusted care for patients searching for Dental Bridges & Crowns near Chennai, with personalized treatment and comfortable dental experiences.',
+      ],
+    },
+    facts: [
+      { label: 'Treatment', value: '2–3 visits' },
+      { label: 'Materials', value: 'Zirconia / E-max' },
+      { label: 'Lifespan', value: '10–15 years' },
+    ],
+    sections: [
+      {
+        type: 'text',
+        heading: 'What are Dental Crowns?',
+        paragraphs: [
+          'A dental crown is a tooth-shaped cap placed over a damaged or weakened tooth to restore its shape, strength and appearance. Crowns can protect teeth that have had root canal treatment, fractures or severe decay.',
+          'We create crowns that perfectly match your natural teeth in both function and look.',
+        ],
+      },
+      {
+        type: 'text',
+        heading: 'What are Dental Bridges?',
+        paragraphs: [
+          'A dental bridge is a prosthetic device used to replace one or more missing teeth by affixing artificial teeth to adjacent natural teeth or implants. Bridges help restore your smile, facial structure and ability to chew.',
+          'AVM Smiles’ Dental Bridges & Crowns in Chennai give patients durable, strong and natural-looking restorations.',
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'When Do You Need Crowns or Bridges?',
+        items: [
+          'Missing teeth',
+          'Severely decayed teeth',
+          'Cracked or broken teeth',
+          'After root canal treatment',
+          'To improve smile aesthetics',
+          'Difficulty chewing or speaking',
+          'Preventing teeth from shifting',
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Types of Dental Crowns',
+        items: [
+          {
+            icon: Sparkles,
+            title: 'Ceramic Crowns',
+            body: 'Natural appearance, ideal for front teeth.',
+          },
+          {
+            icon: Layers,
+            title: 'Porcelain-Fused-to-Metal',
+            body: 'A strong and aesthetic combination.',
+          },
+          {
+            icon: ShieldCheck,
+            title: 'Metal Crowns',
+            body: 'Highly durable — used for back teeth.',
+          },
+          {
+            icon: Gem,
+            title: 'Zirconia Crowns',
+            body: 'A modern, strong and highly aesthetic option.',
+          },
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Types of Dental Bridges',
+        items: [
+          {
+            icon: Crown,
+            title: 'Traditional Bridge',
+            body: 'Supported by natural teeth on both sides.',
+          },
+          {
+            icon: Frame,
+            title: 'Cantilever Bridge',
+            body: 'Supported on one side only.',
+          },
+          {
+            icon: Layers,
+            title: 'Maryland Bridge',
+            body: 'Uses metal or porcelain wings for support.',
+          },
+          {
+            icon: Wrench,
+            title: 'Implant-Supported Bridge',
+            body: 'Supported by dental implants for maximum stability.',
+          },
+        ],
+      },
+      {
+        type: 'steps',
+        heading: 'Dental Crowns & Bridges Procedure',
+        items: [
+          {
+            title: 'Consultation & Diagnosis',
+            body: 'A dental examination and X-rays are taken to assess your oral health.',
+          },
+          {
+            title: 'Tooth Preparation',
+            body: 'The supporting teeth are reshaped for crown or bridge placement.',
+          },
+          {
+            title: 'Impression Taking',
+            body: 'Digital or physical impressions are taken for a precise fit.',
+          },
+          {
+            title: 'Temporary Restoration',
+            body: 'A temporary crown or bridge is placed for protection.',
+          },
+          {
+            title: 'Final Placement',
+            body: 'The permanent crown or bridge is fixed securely with dental cement.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Benefits of Dental Bridges & Crowns',
+        items: [
+          'Restores your natural smile',
+          'Improves chewing ability',
+          'Prevents teeth from shifting',
+          'Enhances speech clarity',
+          'Strengthens weak teeth',
+          'Long-lasting solution',
+          'Boosts confidence',
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Why Choose AVM Smiles?',
+        items: [
+          {
+            icon: GraduationCap,
+            title: 'Experienced Dentists',
+            body: 'Skilled restorative dentists focused on lasting results.',
+          },
+          {
+            icon: Cpu,
+            title: 'Digital Smile Design',
+            body: 'Advanced digital planning for precise, predictable outcomes.',
+          },
+          {
+            icon: Gem,
+            title: 'Premium Materials',
+            body: 'High-quality, biocompatible dental materials.',
+          },
+          {
+            icon: Smile,
+            title: 'Natural-Looking Results',
+            body: 'Restorations that blend seamlessly with your smile.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Painless & Comfortable',
+            body: 'Gentle procedures designed around your comfort.',
+          },
+          {
+            icon: ClipboardList,
+            title: 'Personalized Planning',
+            body: 'Treatment tailored to your unique oral health.',
+          },
+          {
+            icon: ShieldCheck,
+            title: 'Strict Hygiene & Safety',
+            body: 'International sterilisation and safety standards.',
+          },
+        ],
+      },
+      {
+        type: 'tips',
+        heading: 'Recovery & Aftercare',
+        boxLabel: 'Aftercare tips',
+        items: [
+          'Maintain good oral hygiene',
+          'Avoid hard and sticky foods initially',
+          'Attend regular dental check-ups',
+          'Use recommended toothpaste and floss',
+          'Follow your dentist’s instructions carefully',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          'I had my dental crown done at AVM Smiles. It looks totally natural and feels really comfortable.',
+        name: 'Suresh K.',
+        location: 'Chennai',
+        initials: 'SK',
+      },
+      {
+        quote:
+          'Great service! My dental bridge treatment went well and was pain-free. Excellent Dental Bridges & Crowns in Chennai.',
+        name: 'Anita R.',
+        location: 'Avinashi Road',
+        initials: 'AR',
+      },
+      {
+        quote:
+          'Best clinic for a smile makeover — I looked up Dental Bridges & Crowns near Chennai and found perfect care at AVM Smiles.',
+        name: 'Mohammed F.',
+        location: 'Coimbatore',
+        initials: 'MF',
+      },
+    ],
+    faqs: [
+      {
+        q: 'How long do dental crowns last?',
+        a: 'Dental crowns typically last around 10–15 years, or even longer with good oral hygiene and regular dental check-ups. Proper care — including brushing and avoiding hard foods — helps extend their lifespan.',
+      },
+      {
+        q: 'Is the crown procedure painful?',
+        a: 'The dental crown procedure is usually painless as it is performed under local anaesthesia. Most patients feel only mild discomfort or sensitivity after treatment, which settles quickly.',
+      },
+      {
+        q: 'How long does a dental bridge last?',
+        a: 'A dental bridge generally lasts between 7–15 years depending on oral care and maintenance. Regular brushing, flossing and dental visits help improve its durability.',
+      },
+      {
+        q: 'Can I eat normally after crowns or bridges?',
+        a: 'Yes, you can eat normally once the initial adjustment period is over. It is advised to avoid very hard or sticky foods in the beginning for better comfort.',
+      },
+      {
+        q: 'What is better — an implant or a bridge?',
+        a: 'Dental implants are more permanent and durable, while bridges are quicker and more cost-effective. The best option depends on your oral health, bone structure and your dentist’s recommendation.',
+      },
+      {
+        q: 'Do crowns look natural?',
+        a: 'Yes — modern dental crowns are designed to closely match the colour, shape and appearance of your natural teeth.',
+      },
+    ],
+    closing: {
+      heading: 'Book Your Consultation Today',
+      body: 'Are you searching for reliable Dental Bridges & Crowns in Chennai? AVM Smiles offers advanced restorative dental treatments for long-lasting results, serving patients in and around Chennai with the best care and latest technology. We are a trusted dental care solution to restore your smile, confidence and oral health.',
+    },
+  },
+
+  'dental-dentures': {
+    seo: {
+      title: 'Best Dental Dentures in Chennai | AVM Smiles',
+      description:
+        'Get comfortable, natural-looking Dental Dentures in Chennai at AVM Smiles. Restore your smile, confidence, and chewing ability with expert care.',
+      keywords: 'Dental Dentures in Chennai, Dental Dentures near Chennai',
+    },
+    hero: {
+      h1: 'Dental Dentures in Chennai',
+      lead: 'Custom, natural-looking dentures that restore your smile, confidence and ability to chew and speak with ease.',
+    },
+    intro: {
+      heading: 'Restore Your Smile with Comfortable Dental Dentures at AVM Smiles',
+      paragraphs: [
+        'If you have lost multiple teeth and are facing difficulty chewing and speaking, AVM Smiles offers high-quality Dental Dentures in Chennai to restore function, aesthetics and confidence. We build custom dentures that fit well and look natural, helping patients get their full, healthy smile back.',
+        'We also provide advanced care for patients looking for Dental Dentures near Chennai, offering reliable and affordable tooth-replacement solutions.',
+      ],
+    },
+    facts: [
+      { label: 'Treatment', value: '2–4 visits' },
+      { label: 'Options', value: 'Complete / Partial / Implant' },
+      { label: 'Lifespan', value: '5–10 years' },
+    ],
+    sections: [
+      {
+        type: 'text',
+        heading: 'What are Dental Dentures?',
+        paragraphs: [
+          'Dental dentures are replacement prostheses for missing teeth and the surrounding tissues. They help restore your ability to chew, speak clearly and maintain your facial structure.',
+          'At AVM Smiles, we craft dentures to match your natural teeth for a comfortable, natural appearance.',
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Types of Dental Dentures',
+        items: [
+          {
+            icon: Layers,
+            title: 'Complete Dentures',
+            body: 'Used when all teeth in the upper or lower jaw are missing.',
+          },
+          {
+            icon: Frame,
+            title: 'Partial Dentures',
+            body: 'Used when some natural teeth remain and need support.',
+          },
+          {
+            icon: Syringe,
+            title: 'Immediate Dentures',
+            body: 'Placed immediately after tooth extraction for temporary restoration.',
+          },
+          {
+            icon: Wrench,
+            title: 'Implant-Supported Dentures',
+            body: 'Fixed with dental implants for better stability and comfort.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'When Do You Need Dentures?',
+        items: [
+          'Multiple missing teeth',
+          'Difficulty chewing food',
+          'Speech problems due to tooth loss',
+          'Facial sagging or changes',
+          'Gum disease-related tooth loss',
+          'Poor oral function due to missing teeth',
+        ],
+        outro:
+          'At AVM Smiles, patients looking for Dental Dentures in Chennai undergo a personalized evaluation to determine the best treatment.',
+      },
+      {
+        type: 'steps',
+        heading: 'Dental Denture Procedure',
+        items: [
+          {
+            title: 'Consultation & Oral Examination',
+            body: 'A detailed assessment evaluates your oral health and determines the denture type.',
+          },
+          {
+            title: 'Impressions',
+            body: 'Precise moulds of your mouth are taken for an accurate denture fit.',
+          },
+          {
+            title: 'Trial Denture Fitting',
+            body: 'A temporary model is created to check fit, bite and appearance.',
+          },
+          {
+            title: 'Final Denture Fabrication',
+            body: 'Custom dentures are prepared using high-quality materials.',
+          },
+          {
+            title: 'Fitting & Adjustments',
+            body: 'Final dentures are fitted and adjusted for comfort and function.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Benefits of Dental Dentures',
+        items: [
+          'Restores your natural smile',
+          'Improves chewing ability',
+          'Enhances speech clarity',
+          'Supports facial structure',
+          'Affordable tooth-replacement option',
+          'Custom-made for comfort',
+          'Improves confidence and quality of life',
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Why Choose AVM Smiles for Dental Dentures?',
+        items: [
+          {
+            icon: GraduationCap,
+            title: 'Prosthodontic Specialists',
+            body: 'Experienced specialists focused on precise, comfortable dentures.',
+          },
+          {
+            icon: Smile,
+            title: 'Natural-Looking Dentures',
+            body: 'High-quality dentures that look and feel natural.',
+          },
+          {
+            icon: Cpu,
+            title: 'Digital Impressions',
+            body: 'Advanced digital impression techniques for accuracy.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Comfortable, Precise Fit',
+            body: 'Carefully fitted and adjusted for all-day comfort.',
+          },
+          {
+            icon: IndianRupee,
+            title: 'Affordable Options',
+            body: 'Flexible, affordable treatment options.',
+          },
+          {
+            icon: ClipboardList,
+            title: 'Personalized Care',
+            body: 'Care planned around your individual needs.',
+          },
+          {
+            icon: ShieldCheck,
+            title: 'Hygienic & Safe',
+            body: 'A clean, safe and hygienic clinic environment.',
+          },
+        ],
+      },
+      {
+        type: 'tips',
+        heading: 'Care & Maintenance of Dentures',
+        boxLabel: 'Care tips',
+        body: 'Proper care ensures long-lasting performance and comfort.',
+        items: [
+          'Clean dentures daily using a soft brush',
+          'Remove dentures at night to rest your gums',
+          'Soak in a recommended cleaning solution',
+          'Avoid exposure to hot water',
+          'Attend regular dental check-ups',
+          'Handle dentures carefully to avoid damage',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          'AVM Smiles created my full dentures. They fit like a glove and feel very natural — a must-visit for Dental Dentures in Chennai.',
+        name: 'Lakshmi P.',
+        location: 'Chennai',
+        initials: 'LP',
+      },
+      {
+        quote:
+          'Very professional service. My partials look great and have really helped with my chewing.',
+        name: 'Rajesh K.',
+        location: 'Avinashi Road',
+        initials: 'RK',
+      },
+      {
+        quote:
+          'Great experience at AVM Smiles — the doctors were very patient and explained everything.',
+        name: 'S. Kumar',
+        location: 'Coimbatore',
+        initials: 'SK',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Are dentures comfortable to wear?',
+        a: 'Yes — modern dentures are designed for a comfortable, secure fit after a short adjustment period. They are customised to improve speech, chewing and overall oral comfort.',
+      },
+      {
+        q: 'How long do dentures last?',
+        a: 'Dentures generally last around 5–10 years depending on usage and maintenance. Regular dental check-ups and proper care help maintain their fit and durability.',
+      },
+      {
+        q: 'Can I eat normally with dentures?',
+        a: 'Yes — most patients can eat normally after a brief adaptation period. Starting with soft foods helps improve comfort and chewing efficiency.',
+      },
+      {
+        q: 'Do dentures look natural?',
+        a: 'Yes — modern dentures are custom-made to closely match your facial features and natural teeth, providing a natural-looking, confident smile.',
+      },
+      {
+        q: 'Are implant-supported dentures better?',
+        a: 'Implant-supported dentures offer greater stability, comfort and chewing efficiency than traditional options, making them a more secure long-term solution for missing teeth.',
+      },
+      {
+        q: 'How should I clean my dentures?',
+        a: 'Clean dentures daily using a soft brush and a dentist-recommended cleaning solution. Proper cleaning helps prevent stains and odour and maintains oral hygiene.',
+      },
+    ],
+    closing: {
+      heading: 'Book Your Denture Consultation Today',
+      body: 'If you are looking for reliable Dental Dentures in Chennai, AVM Smiles offers customized, comfortable tooth-replacement solutions. We also cater to patients looking for Dental Dentures near Chennai with affordable, quality care — expert denture solutions to help you reclaim your smile, confidence and oral health.',
+    },
+  },
+
+  'root-canal-treatment': {
+    seo: {
+      title: 'Best Root Canal Treatment in Chennai | AVM Smiles',
+      description:
+        'AVM Smiles offers painless Root Canal Treatment in Chennai using modern technology to treat infection and preserve your natural teeth.',
+      keywords:
+        'Root Canal Treatment in Chennai, Root Canal Treatment near Chennai',
+    },
+    hero: {
+      h1: 'Root Canal Treatment in Chennai',
+      lead: 'Painless, single-sitting root canal therapy that eliminates infection and saves your natural tooth — with advanced endodontic technology.',
+    },
+    intro: {
+      heading: 'Painless & Advanced Root Canal Treatment at AVM Smiles',
+      paragraphs: [
+        'An infected tooth needs prompt attention and can cause severe pain or sensitivity. At AVM Smiles, we offer the best Root Canal Treatment in Chennai — aiming to save your natural tooth, eliminate infection and restore full dental function with minimal discomfort.',
+        'Our experienced endodontic specialists use modern techniques and precision tools for safe, effective and comfortable treatment, making us a trusted choice for patients looking for Root Canal Treatment near Chennai.',
+      ],
+    },
+    facts: [
+      { label: 'Treatment', value: '1–2 sittings' },
+      { label: 'Anaesthesia', value: 'Local (pain-free)' },
+      { label: 'Technology', value: 'Rotary endodontics' },
+    ],
+    sections: [
+      {
+        type: 'text',
+        heading: 'What is Root Canal Treatment?',
+        paragraphs: [
+          'Root canal treatment (RCT) is a dental procedure used to treat infection in the pulp of the tooth. Instead of removing the tooth, the pulp is cleaned, disinfected and sealed — keeping your natural tooth structure intact.',
+          'AVM Smiles offers painless, precise Root Canal Treatment in Chennai with advanced technology for long-lasting results.',
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Signs You May Need Root Canal Treatment',
+        items: [
+          'Severe tooth pain while chewing',
+          'Sensitivity to hot or cold foods',
+          'Swollen or tender gums',
+          'Darkened or discoloured tooth',
+          'Pimple-like swelling on the gums',
+          'Deep decay or infection',
+          'Cracked or broken tooth',
+        ],
+        outro: 'Early diagnosis can prevent tooth loss and further complications.',
+      },
+      {
+        type: 'steps',
+        heading: 'Root Canal Treatment Procedure',
+        items: [
+          {
+            title: 'Diagnosis & X-ray',
+            body: 'The dentist examines the tooth and takes digital X-rays to assess the infection level.',
+          },
+          {
+            title: 'Local Anaesthesia',
+            body: 'The area is numbed to ensure a completely painless procedure.',
+          },
+          {
+            title: 'Pulp Removal',
+            body: 'The infected pulp is carefully removed from inside the tooth.',
+          },
+          {
+            title: 'Cleaning & Disinfection',
+            body: 'The root canals are thoroughly cleaned and disinfected to eliminate bacteria.',
+          },
+          {
+            title: 'Filling & Sealing',
+            body: 'The canals are filled with a biocompatible material and sealed permanently.',
+          },
+          {
+            title: 'Crown Placement (if needed)',
+            body: 'A dental crown is placed to restore strength and function.',
+          },
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Types of Root Canal Treatment',
+        items: [
+          {
+            icon: Activity,
+            title: 'Single Sitting RCT',
+            body: 'Completed in one visit for less severe infections.',
+          },
+          {
+            icon: Layers,
+            title: 'Multiple Sitting RCT',
+            body: 'Recommended for complex infections requiring detailed cleaning.',
+          },
+          {
+            icon: Stethoscope,
+            title: 'Re-Root Canal Treatment',
+            body: 'Performed when a previously treated tooth becomes reinfected.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Benefits of Root Canal Treatment',
+        items: [
+          'Saves your natural tooth',
+          'Relieves severe pain',
+          'Prevents infection from spreading',
+          'Restores chewing ability',
+          'Maintains your natural smile',
+          'Long-lasting dental solution',
+          'Avoids tooth extraction',
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Why Choose AVM Smiles?',
+        items: [
+          {
+            icon: GraduationCap,
+            title: 'Endodontic Specialists',
+            body: 'Experienced specialists in root canal therapy.',
+          },
+          {
+            icon: Cpu,
+            title: 'Rotary RCT Technology',
+            body: 'Advanced rotary instrumentation for precise treatment.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Painless Approach',
+            body: 'A gentle, comfort-first treatment approach.',
+          },
+          {
+            icon: BadgeCheck,
+            title: 'High Success Rate',
+            body: 'Reliable, predictable outcomes you can trust.',
+          },
+          {
+            icon: Microscope,
+            title: 'Digital X-ray Diagnosis',
+            body: 'Digital X-rays for accurate, precise diagnosis.',
+          },
+          {
+            icon: ShieldCheck,
+            title: 'Strict Sterilization',
+            body: 'International sterilisation and safety protocols.',
+          },
+          {
+            icon: ClipboardList,
+            title: 'Personalized Care',
+            body: 'Treatment tailored to your individual needs.',
+          },
+        ],
+      },
+      {
+        type: 'tips',
+        heading: 'Aftercare & Recovery',
+        boxLabel: 'Aftercare tips',
+        body: 'Proper care ensures the long-term success of your treatment.',
+        items: [
+          'Avoid chewing hard foods initially',
+          'Maintain good oral hygiene',
+          'Take prescribed medications',
+          'Attend follow-up visits',
+          'Get a dental crown if recommended',
+          'Avoid extreme-temperature foods temporarily',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          'I had a severe toothache and got my RCT done at AVM Smiles. The treatment was totally pain-free and very professional.',
+        name: 'Arun S.',
+        location: 'Chennai',
+        initials: 'AS',
+      },
+      {
+        quote:
+          'The best root canal clinic in Chennai — the doctors explained everything very well and made me very comfortable.',
+        name: 'Priya M.',
+        location: 'Avinashi Road',
+        initials: 'PM',
+      },
+      {
+        quote:
+          'I searched for Root Canal Treatment near Chennai and found AVM Smiles — a very smooth experience and excellent care.',
+        name: 'Mohammed R.',
+        location: 'Coimbatore',
+        initials: 'MR',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Is root canal treatment painful?',
+        a: 'Root canal treatment is usually painless as it is performed under local anaesthesia. Most patients experience relief from pain once the infected tooth is treated.',
+      },
+      {
+        q: 'How long does root canal treatment take?',
+        a: 'Root canal treatment typically takes 1–2 sittings depending on the severity of the infection. Complex cases may require additional visits for complete cleaning and sealing.',
+      },
+      {
+        q: 'Can I eat after root canal treatment?',
+        a: 'Yes — but avoid chewing on the treated tooth until it is restored. Soft foods are recommended initially to prevent discomfort or damage.',
+      },
+      {
+        q: 'Is a crown necessary after root canal treatment?',
+        a: 'In most cases a dental crown is recommended to protect and strengthen the tooth. It restores function and prevents fractures in the treated tooth.',
+      },
+      {
+        q: 'How long does a root canal last?',
+        a: 'A properly done root canal can last many years — even a lifetime — with good oral care. Regular check-ups and hygiene play a key role in its longevity.',
+      },
+      {
+        q: 'What happens if I delay treatment?',
+        a: 'Delaying treatment can worsen the infection and lead to severe pain or abscess formation. It also increases the risk of tooth loss and more complex dental procedures.',
+      },
+    ],
+    closing: {
+      heading: 'Book Your Appointment Today',
+      body: 'If you’re suffering from tooth pain or infection, AVM Smiles is the place for expert Root Canal Treatment in Chennai — with advanced technology and painless procedures. We are also a first choice for Root Canal Treatment near Chennai, offering expert RCT care to restore your oral health and save your natural smile.',
+    },
+  },
+
+  'best-teeth-whitening-treatment': {
+    seo: {
+      title: 'Best Teeth Whitening Treatment in Chennai | AVM Smiles',
+      description:
+        'Transform your smile with the Best Teeth Whitening Treatment in Chennai at AVM Smiles. Professional care for noticeably whiter teeth.',
+      keywords:
+        'best teeth whitening treatment, dental whitening treatment, professional tooth whitening treatment, teeth whitening treatment cost, teeth whitening treatment dentist',
+    },
+    hero: {
+      h1: 'Teeth Whitening Treatment in Chennai',
+      lead: 'Safe, clinically proven whitening that removes deep stains for a noticeably brighter smile — often in a single session.',
+    },
+    intro: {
+      heading: 'Brighten Your Smile with Professional Teeth Whitening at AVM Smiles',
+      paragraphs: [
+        'A bright, white smile can boost your confidence instantly and enhance your appearance. AVM Smiles offers the best teeth whitening treatment in Chennai with safe, advanced and clinically proven techniques. Our dental whitening treatment removes deep stains from coffee, tea, smoking and ageing for a noticeably brighter smile in a short time.',
+        'We offer professional tooth whitening customized to your smile goals — long-lasting results with minimal sensitivity.',
+      ],
+    },
+    facts: [
+      { label: 'Treatment', value: '45–60 mins' },
+      { label: 'Results', value: 'Single session' },
+      { label: 'Sensitivity', value: 'Minimal' },
+    ],
+    sections: [
+      {
+        type: 'text',
+        heading: 'What is Teeth Whitening?',
+        paragraphs: [
+          'Teeth whitening is a cosmetic dental procedure that lightens the natural colour of your teeth without removing any tooth surface. It eliminates stains and discolouration to achieve a brighter, healthier look.',
+          'At AVM Smiles, our dentist for teeth whitening treatment in Chennai ensures safe application of whitening agents for the best results and an even tone.',
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Causes of Tooth Discolouration',
+        items: [
+          'Coffee and tea consumption',
+          'Smoking and tobacco use',
+          'Poor oral hygiene',
+          'The natural ageing process',
+          'Certain medications',
+          'Excess fluoride exposure',
+          'Food stains (curries, sauces, etc.)',
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Types of Teeth Whitening Treatments',
+        items: [
+          {
+            icon: Sparkles,
+            title: 'In-Clinic Professional Whitening',
+            body: 'Performed by a dentist using advanced whitening gels and light activation for instant results.',
+          },
+          {
+            icon: Zap,
+            title: 'Laser Teeth Whitening',
+            body: 'Uses laser technology for faster, more effective stain removal.',
+          },
+          {
+            icon: Layers,
+            title: 'Take-Home Whitening Kits',
+            body: 'Custom-made trays with dentist-prescribed gel for gradual whitening.',
+          },
+        ],
+      },
+      {
+        type: 'steps',
+        heading: 'Teeth Whitening Procedure',
+        items: [
+          {
+            title: 'Dental Examination',
+            body: 'The dentist checks your oral health and confirms you’re suitable for whitening.',
+          },
+          {
+            title: 'Teeth Cleaning',
+            body: 'Plaque and tartar are removed before the whitening process.',
+          },
+          {
+            title: 'Gum Protection',
+            body: 'A protective barrier is applied to shield your gums.',
+          },
+          {
+            title: 'Whitening Application',
+            body: 'A professional whitening gel is applied to the teeth.',
+          },
+          {
+            title: 'Activation',
+            body: 'Light or laser technology may be used to enhance the whitening effect.',
+          },
+          {
+            title: 'Final Results',
+            body: 'Teeth appear visibly brighter in just one session.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Benefits of Teeth Whitening',
+        items: [
+          'Instantly brighter smile',
+          'Boosts confidence',
+          'Removes deep stains',
+          'Safe and non-invasive',
+          'Quick treatment with immediate results',
+          'Enhances overall appearance',
+          'Improves smile aesthetics',
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Teeth Whitening Treatment Cost',
+        intro: 'The teeth whitening treatment cost depends on several factors, such as:',
+        items: [
+          'Type of whitening procedure',
+          'Severity of stains',
+          'Clinic location and expertise',
+          'Technology used',
+        ],
+        outro:
+          'At AVM Smiles, we believe in affordable, transparent pricing for our cosmetic dental treatments — value-driven care without compromising on quality.',
+      },
+      {
+        type: 'cards',
+        heading: 'Why Choose AVM Smiles for Teeth Whitening?',
+        items: [
+          {
+            icon: GraduationCap,
+            title: 'Cosmetic Dentists',
+            body: 'Experienced cosmetic dentists focused on beautiful results.',
+          },
+          {
+            icon: Cpu,
+            title: 'Advanced Technology',
+            body: 'The latest whitening technology for fast, even results.',
+          },
+          {
+            icon: ShieldCheck,
+            title: 'Safe & Approved',
+            body: 'Clinically approved, enamel-safe whitening procedures.',
+          },
+          {
+            icon: Sparkles,
+            title: 'Instant Results',
+            body: 'Visibly brighter teeth, often in a single visit.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Minimal Sensitivity',
+            body: 'Low-sensitivity formulations for a comfortable experience.',
+          },
+          {
+            icon: ClipboardList,
+            title: 'Personalized Plans',
+            body: 'Smile-enhancement plans tailored to your goals.',
+          },
+          {
+            icon: Smile,
+            title: 'Comfortable Environment',
+            body: 'A clean, hygienic and relaxing clinic environment.',
+          },
+        ],
+      },
+      {
+        type: 'tips',
+        heading: 'Aftercare Tips',
+        boxLabel: 'Aftercare tips',
+        items: [
+          'Avoid coffee, tea and smoking for 24–48 hours',
+          'Maintain good oral hygiene',
+          'Use a dentist-recommended toothpaste',
+          'Schedule regular dental cleanings',
+          'Avoid stain-causing foods initially',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          'AVM Smiles gave me the best teeth whitening treatment in Chennai. I now smile more brightly and with more confidence.',
+        name: 'Karthik S.',
+        location: 'Chennai',
+        initials: 'KS',
+      },
+      {
+        quote:
+          'Excellent teeth whitening treatment — the results were immediate and very natural-looking.',
+        name: 'Priya R.',
+        location: 'Avinashi Road',
+        initials: 'PR',
+      },
+      {
+        quote:
+          'Very professional service. I had my teeth whitened professionally and it was a great experience.',
+        name: 'Ahmed F.',
+        location: 'Coimbatore',
+        initials: 'AF',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Is teeth whitening safe?',
+        a: 'Yes — professional teeth whitening is safe when performed under a dentist’s supervision. It uses clinically approved agents to brighten teeth without harming enamel.',
+      },
+      {
+        q: 'How long do whitening results last?',
+        a: 'Results typically last from 6 months to 2 years based on oral hygiene and lifestyle habits. Avoiding stain-causing foods and tobacco helps maintain longer results.',
+      },
+      {
+        q: 'Does teeth whitening cause sensitivity?',
+        a: 'Some patients may experience mild, temporary sensitivity after treatment. This usually subsides within a few days with proper care and desensitizing products.',
+      },
+      {
+        q: 'How long does the treatment take?',
+        a: 'Professional in-clinic teeth whitening usually takes about 45–60 minutes and delivers quick, visible results in a single dental visit.',
+      },
+      {
+        q: 'Can everyone get teeth whitening?',
+        a: 'Whitening is suitable for most adults with healthy teeth and gums. It is generally avoided for children, pregnant women and certain dental conditions.',
+      },
+      {
+        q: 'What is the best teeth whitening treatment?',
+        a: 'Professional in-clinic whitening is considered one of the most effective options for fast results, and is often recommended as the best teeth whitening treatment near Chennai for safe, visible whitening.',
+      },
+    ],
+    closing: {
+      heading: 'Book Your Teeth Whitening Appointment Today',
+      body: 'If you’re looking for a brighter, more confident smile, AVM Smiles provides advanced dental whitening treatment in Chennai with safe, effective results. Our expert teeth whitening dentist ensures a comfortable experience that lasts and shines — for trusted cosmetic dentistry, get the smile you’ve always wanted today at AVM Smiles.',
+    },
+  },
+
+  'dental-scaling-polishing': {
+    seo: {
+      title: 'Best Dental Scaling and Polishing in Chennai | AVM Smiles',
+      description:
+        'Get the Best Dental Scaling and Polishing in Chennai at AVM Smiles. Remove plaque, stains, and maintain a healthy, sparkling smile.',
+      keywords:
+        'dental scaling & polishing teeth, polishing after scaling, polishing teeth price, scaling and polishing of teeth cost, teeth cleaning and polishing cost',
+    },
+    hero: {
+      h1: 'Scaling & Polishing in Chennai',
+      lead: 'Gentle, ultrasonic scaling and polishing that removes plaque, tartar and stains for healthier gums and a brighter smile.',
+    },
+    intro: {
+      heading: 'Professional Dental Scaling & Polishing Teeth Treatment at AVM Smiles',
+      paragraphs: [
+        'Healthy gums and clean teeth are essential for excellent oral health. At AVM Smiles, we offer modern dental scaling & polishing teeth treatments in Chennai that efficiently eliminate plaque, tartar and stains — helping you get a cleaner, healthier and brighter smile.',
+        'Our experienced dental team uses advanced ultrasonic scaling technology and gentle polishing techniques to improve your oral hygiene, prevent gum disease and enhance the look of your teeth.',
+      ],
+    },
+    facts: [
+      { label: 'Treatment', value: '30–60 mins' },
+      { label: 'Recommended', value: 'Every 6 months' },
+      { label: 'Technology', value: 'Ultrasonic scaling' },
+    ],
+    sections: [
+      {
+        type: 'cards',
+        heading: 'What is Scaling & Polishing?',
+        intro:
+          'Scaling and polishing is a preventive dentistry procedure that removes hardened plaque (tartar), bacteria and surface stains from the teeth and below the gum line.',
+        items: [
+          {
+            icon: Brush,
+            title: 'Scaling',
+            body: 'Removes plaque and tartar build-up that normal brushing and flossing cannot reach.',
+          },
+          {
+            icon: Sparkles,
+            title: 'Polishing',
+            body: 'Smooths the tooth surface and removes minor stains, making it harder for plaque and bacteria to re-accumulate.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Why is Dental Scaling & Polishing Important?',
+        intro: 'Over time, plaque hardens into tartar, which can lead to:',
+        items: [
+          'Gum inflammation (Gingivitis)',
+          'Bad breath (Halitosis)',
+          'Gum disease (Periodontitis)',
+          'Tooth decay',
+          'Tooth discolouration',
+          'Bleeding gums',
+        ],
+        outro:
+          'Regular dental scaling & polishing treatments in Chennai help prevent these problems and maintain long-term dental wellness.',
+      },
+      {
+        type: 'list',
+        heading: 'Signs You Need Scaling & Polishing',
+        items: [
+          'Yellow or brown deposits on teeth',
+          'Persistent bad breath',
+          'Bleeding gums while brushing',
+          'Swollen or red gums',
+          'Visible tartar build-up',
+          'Stained teeth',
+          'Receding gums',
+        ],
+        outro:
+          'If you notice any of these symptoms, a professional cleaning may be recommended.',
+      },
+      {
+        type: 'steps',
+        heading: 'Scaling & Polishing Procedure',
+        items: [
+          {
+            title: 'Oral Examination',
+            body: 'The dentist checks your teeth and gums to assess how much plaque and tartar has built up.',
+          },
+          {
+            title: 'Ultrasonic Scaling',
+            body: 'Advanced ultrasonic instruments remove plaque and tartar deposits from the tooth surface and below the gums.',
+          },
+          {
+            title: 'Manual Cleaning',
+            body: 'Any remaining deposits are gently removed with special dental instruments.',
+          },
+          {
+            title: 'Polishing',
+            body: 'The teeth are polished with a paste and rotating brush to smooth and brighten the surface.',
+          },
+          {
+            title: 'Oral Hygiene Guidance',
+            body: 'You receive personalised recommendations to prevent further plaque build-up.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Benefits of Scaling & Polishing',
+        items: [
+          'Removes plaque and tartar build-up',
+          'Reduces bad breath',
+          'Helps prevent gum disease',
+          'Improves gum health',
+          'Removes surface stains',
+          'Creates a brighter smile',
+          'Enhances oral hygiene',
+          'Lowers the risk of tooth decay',
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Polishing After Scaling: Why It Matters',
+        intro:
+          'Many patients ask about the importance of polishing after scaling. Polishing helps:',
+        items: [
+          'Smooth rough tooth surfaces',
+          'Remove minor stains',
+          'Reduce plaque accumulation',
+          'Improve smile aesthetics',
+          'Provide a fresh, clean feeling',
+        ],
+        outro:
+          'This final step greatly enhances the effectiveness of professional dental cleanings.',
+      },
+      {
+        type: 'list',
+        heading: 'Scaling and Polishing of Teeth Cost',
+        intro: 'The scaling and polishing of teeth cost varies based on factors such as:',
+        items: [
+          'Amount of tartar build-up',
+          'Severity of gum issues',
+          'Number of teeth requiring treatment',
+          'Additional periodontal procedures, if needed',
+        ],
+        outro:
+          'At AVM Smiles, we offer professional dental cleaning at affordable, transparent prices while meeting the highest standards of care. We provide detailed treatment estimates during your consultation.',
+      },
+      {
+        type: 'cards',
+        heading: 'Why Choose AVM Smiles?',
+        items: [
+          {
+            icon: GraduationCap,
+            title: 'Experienced Professionals',
+            body: 'Skilled dentists and hygienists perform safe, effective cleaning.',
+          },
+          {
+            icon: Cpu,
+            title: 'Ultrasonic Technology',
+            body: 'Modern equipment for comfortable, efficient plaque removal.',
+          },
+          {
+            icon: Microscope,
+            title: 'Comprehensive Evaluation',
+            body: 'A detailed examination and customised treatment plan for everyone.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Gentle & Comfortable',
+            body: 'Procedures designed to minimise discomfort and maximise results.',
+          },
+          {
+            icon: ShieldCheck,
+            title: 'Hygienic Environment',
+            body: 'Strict sterilisation and infection-control protocols.',
+          },
+          {
+            icon: IndianRupee,
+            title: 'Affordable Options',
+            body: 'Transparent pricing for quality care at accessible costs.',
+          },
+        ],
+      },
+      {
+        type: 'text',
+        heading: 'How Often Should You Get Scaling & Polishing?',
+        paragraphs: [
+          'Most patients benefit from a professional scaling and polishing every 6 months.',
+          'Patients with gum disease, heavy tartar build-up or orthodontic appliances may need cleanings more often, as determined by their dentist.',
+        ],
+      },
+      {
+        type: 'tips',
+        heading: 'Aftercare Tips',
+        boxLabel: 'Aftercare tips',
+        body: 'Following these practices helps maintain your results and improve oral health.',
+        items: [
+          'Brush twice daily',
+          'Floss regularly',
+          'Use an antiseptic mouthwash',
+          'Avoid tobacco products',
+          'Limit staining beverages such as coffee and tea',
+          'Schedule regular dental check-ups',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          'I was amazed at the difference after my cleaning at AVM Smiles. My teeth feel cleaner and my gums are much healthier now.',
+        name: 'Lakshmi R.',
+        location: 'Chennai',
+        initials: 'LR',
+      },
+      {
+        quote:
+          'The dentist explained the importance of polishing after scaling, and it was amazing. My smile is better than ever.',
+        name: 'Arjun K.',
+        location: 'Coimbatore',
+        initials: 'AK',
+      },
+      {
+        quote:
+          'I was concerned about the cost of scaling and polishing, but AVM Smiles offers affordable treatment with excellent care.',
+        name: 'Priya S.',
+        location: 'Chennai',
+        initials: 'PS',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Is dental scaling painful?',
+        a: 'Dental scaling is generally painless, with most patients experiencing only mild discomfort. Temporary sensitivity may occur but usually subsides shortly after treatment.',
+      },
+      {
+        q: 'How long does scaling and polishing take?',
+        a: 'Scaling and polishing typically takes about 30–60 minutes depending on plaque and tartar build-up. More extensive cleaning may take slightly longer.',
+      },
+      {
+        q: 'Is polishing necessary after scaling?',
+        a: 'Yes — polishing is recommended after scaling to smooth tooth surfaces and remove stains. It also helps reduce plaque build-up and enhances overall oral cleanliness.',
+      },
+      {
+        q: 'What is the price of polishing teeth?',
+        a: 'The polishing teeth price varies based on the clinic, your oral health condition and treatment needs. A dental consultation is the best way to get an accurate, personalised estimate.',
+      },
+      {
+        q: 'How often should I undergo dental scaling and polishing?',
+        a: 'Dentists usually recommend scaling and polishing every six months for optimal oral health. Some patients may need more frequent cleanings depending on gum health.',
+      },
+      {
+        q: 'Does scaling damage tooth enamel?',
+        a: 'No — professional scaling and polishing is safe and does not harm healthy enamel. It effectively removes tartar and plaque while protecting your overall dental health.',
+      },
+    ],
+    closing: {
+      heading: 'Book Your Scaling & Polishing Appointment Today',
+      body: 'Maintain healthy gums and a brighter smile with professional dental scaling & polishing at AVM Smiles. Our experienced dental team uses advanced technology to remove plaque, tartar and stains while improving your overall oral health. Contact AVM Smiles today to book your consultation and learn more about the scaling and polishing of teeth cost and available treatment options.',
+    },
+  },
+
+  'invisible-aligners': {
+    seo: {
+      title: 'Best Invisible Dental Aligners in Chennai | AVM Smiles',
+      description:
+        'Choose AVM Smiles for the Best Invisible Dental Aligners in Chennai. Clear aligner solutions designed for lasting smile transformations.',
+      keywords:
+        'invisible dental aligners in chennai, teeth clear aligners price, teeth invisible aligners in chennai, invisible aligners for teeth cost',
+    },
+    hero: {
+      h1: 'Invisible Aligners in Chennai',
+      lead: 'Clear, removable aligners that straighten teeth discreetly and comfortably — modern orthodontics that fits your lifestyle.',
+    },
+    intro: {
+      heading: 'Achieve a Perfect Smile with Invisible Aligners at AVM Smiles',
+      paragraphs: [
+        'Straighten your teeth invisibly and comfortably with modern invisible dental aligners in Chennai at AVM Smiles. Unlike traditional metal braces, invisible aligners are clear, removable and custom-made to gradually move your teeth into the desired position without affecting your appearance.',
+        'Whether you have crowded teeth, gaps or bite problems, our customized aligner solutions offer modern orthodontic treatment that fits flawlessly into your lifestyle. If you’re looking for invisible aligners for teeth in Chennai, AVM Smiles delivers expert care with advanced treatment planning and reliable results.',
+      ],
+    },
+    facts: [
+      { label: 'Treatment', value: '6–18 months' },
+      { label: 'Daily wear', value: '20–22 hours' },
+      { label: 'Visibility', value: 'Nearly invisible' },
+    ],
+    sections: [
+      {
+        type: 'text',
+        heading: 'What Are Invisible Aligners?',
+        paragraphs: [
+          'Invisible aligners are clear, removable orthodontic trays that gradually straighten teeth. Made from medical-grade clear plastic, they fit comfortably over your teeth and gently move them into place over time.',
+          'Unlike traditional braces, aligners are nearly invisible — a discreet way to straighten teeth that’s ideal for teenagers and adults alike.',
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'How Do Invisible Aligners Work?',
+        intro:
+          'Invisible aligners use a series of custom-made trays that apply targeted pressure to specific teeth. You wear each aligner for about 1–2 weeks before switching to the next set. Over time, the treatment gradually improves:',
+        items: [
+          'Crooked teeth',
+          'Crowded teeth',
+          'Gaps between teeth',
+          'Overbite',
+          'Underbite',
+          'Crossbite',
+          'Mild to moderate orthodontic issues',
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Who Can Benefit from Invisible Aligners?',
+        intro: 'Invisible aligners are suitable for:',
+        items: [
+          'Teenagers seeking aesthetic orthodontic treatment',
+          'Working professionals',
+          'Adults wanting discreet smile correction',
+          'Patients with mild to moderate teeth misalignment',
+          'Individuals looking for an alternative to metal braces',
+        ],
+        outro:
+          'Patients looking for teeth invisible aligners in Chennai prefer aligners for their comfort and convenience.',
+      },
+      {
+        type: 'steps',
+        heading: 'Invisible Aligner Treatment Procedure',
+        items: [
+          {
+            title: 'Consultation & Smile Assessment',
+            body: 'Our orthodontic specialist examines your teeth, bite and oral health to see if aligners are right for you.',
+          },
+          {
+            title: 'Digital Scanning',
+            body: 'Advanced 3D digital scans and photographs are taken to create a precise treatment plan.',
+          },
+          {
+            title: 'Customized Treatment Planning',
+            body: 'A digital simulation shows how your teeth will move and predicts the final result.',
+          },
+          {
+            title: 'Fabrication of Aligners',
+            body: 'Custom aligners are made specifically for your teeth and treatment goals.',
+          },
+          {
+            title: 'Wearing Your Aligners',
+            body: 'You wear the aligners 20–22 hours a day, rotating to new trays per the treatment schedule.',
+          },
+          {
+            title: 'Regular Progress Monitoring',
+            body: 'Periodic check-ups ensure your teeth move correctly.',
+          },
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Benefits of Invisible Aligners',
+        items: [
+          {
+            icon: Sparkles,
+            title: 'Virtually Invisible',
+            body: 'Clear aligners are discreet and difficult to notice.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Comfortable to Wear',
+            body: 'No brackets or wires to irritate gums and cheeks.',
+          },
+          {
+            icon: Layers,
+            title: 'Removable Convenience',
+            body: 'Remove them while eating, brushing and flossing.',
+          },
+          {
+            icon: Brush,
+            title: 'Better Oral Hygiene',
+            body: 'Easier to maintain than traditional braces.',
+          },
+          {
+            icon: ClipboardList,
+            title: 'Customized Treatment',
+            body: 'Each aligner is designed specifically for your smile.',
+          },
+          {
+            icon: BadgeCheck,
+            title: 'Predictable Results',
+            body: 'Advanced digital planning provides accurate outcomes.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Conditions Treated with Invisible Aligners',
+        items: [
+          'Crooked teeth',
+          'Crowded teeth',
+          'Spacing issues',
+          'Overbite',
+          'Underbite',
+          'Open bite',
+          'Crossbite',
+          'Minor orthodontic relapse after braces',
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Why Choose AVM Smiles for Invisible Aligners?',
+        items: [
+          {
+            icon: GraduationCap,
+            title: 'Orthodontic Specialists',
+            body: 'Extensive experience in advanced aligner treatments.',
+          },
+          {
+            icon: Cpu,
+            title: 'Advanced Digital Technology',
+            body: '3D scanning and digital smile simulations for precise planning.',
+          },
+          {
+            icon: ClipboardList,
+            title: 'Customized Plans',
+            body: 'A personalised approach for every smile and optimal results.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Comfortable & Convenient',
+            body: 'Minimal clinic visits and easy treatment management.',
+          },
+          {
+            icon: BadgeCheck,
+            title: 'High-Quality Systems',
+            body: 'Trusted aligner solutions designed for predictable outcomes.',
+          },
+          {
+            icon: Smile,
+            title: 'Patient-Centered Care',
+            body: 'Focused on comfort, communication and long-term oral health.',
+          },
+        ],
+      },
+      {
+        type: 'tips',
+        heading: 'Caring for Your Invisible Aligners',
+        boxLabel: 'Care tips',
+        body: 'Following these instructions helps maintain treatment effectiveness and oral hygiene.',
+        items: [
+          'Wear aligners for 20–22 hours daily',
+          'Remove before eating or drinking coloured beverages',
+          'Clean aligners regularly with recommended solutions',
+          'Brush and floss before reinserting aligners',
+          'Store aligners properly when not in use',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          'I was searching for invisible dental aligners in Chennai and AVM Smiles was more than I expected. The process was effortless and my smile has been beautifully transformed.',
+        name: 'Harini R.',
+        location: 'Chennai',
+        initials: 'HR',
+      },
+      {
+        quote:
+          'The treatment was simple and convenient. The doctor explained the teeth clear aligners price clearly, and the results have been fantastic.',
+        name: 'Karthik S.',
+        location: 'Coimbatore',
+        initials: 'KS',
+      },
+      {
+        quote:
+          'Looking for a discreet alternative to braces, I chose teeth invisible aligners in Chennai at AVM Smiles. My teeth are now perfectly straight and I couldn’t be happier.',
+        name: 'Priya M.',
+        location: 'Chennai',
+        initials: 'PM',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What are invisible aligners?',
+        a: 'Invisible aligners are clear, removable trays used in orthodontic treatment to gradually straighten teeth. They offer a discreet alternative to traditional metal braces while improving alignment and smile aesthetics.',
+      },
+      {
+        q: 'How long does aligner treatment take?',
+        a: 'Invisible aligner treatment usually takes between 6 and 18 months depending on case complexity. Consistent wear and regular dental supervision help achieve faster, more effective results.',
+      },
+      {
+        q: 'Are invisible aligners painful?',
+        a: 'Aligners may cause mild pressure or tightness when switching to a new tray. This is temporary and indicates that your teeth are gradually moving into proper alignment.',
+      },
+      {
+        q: 'What is the invisible aligners for teeth cost?',
+        a: 'The invisible aligners for teeth cost varies based on treatment complexity and the number of aligner sets required. A dental consultation is needed for an accurate, personalised estimate.',
+      },
+      {
+        q: 'Can I eat while wearing aligners?',
+        a: 'No — aligners must be removed before eating or drinking anything other than water. This prevents damage and keeps the aligners clean and effective.',
+      },
+      {
+        q: 'What is the teeth clear aligners price compared to braces?',
+        a: 'Clear aligners may cost more than traditional braces depending on treatment needs. However, they offer better comfort, aesthetics and convenience throughout treatment.',
+      },
+    ],
+    closing: {
+      heading: 'Book Your Invisible Aligner Consultation Today',
+      body: 'Transform your smile with modern invisible dental aligners in Chennai at AVM Smiles. Our experienced orthodontist offers customized treatment plans, digital smile design and comfortable aligner solutions to help you achieve straighter teeth with confidence. If you’re thinking about invisible aligners for teeth in Chennai, book a consultation with AVM Smiles today and discover a modern, discreet way to get your perfect smile.',
+    },
+  },
+
+  'invisible-braces': {
+    seo: {
+      title: 'Best Invisible Dental Teeth Braces in Chennai | AVM Smiles',
+      description:
+        'AVM Smiles offers the Best Invisible Dental Teeth Braces in Chennai for a comfortable, nearly invisible smile correction solution.',
+      keywords:
+        'clear braces for teeth, invisible braces on teeth in chennai, invisible dental teeth braces in chennai, metal and clear braces, teeth invisible braces price',
+    },
+    hero: {
+      h1: 'Invisible Braces in Chennai',
+      lead: 'Discreet clear and ceramic braces that correct crooked, crowded or misaligned teeth — a natural look throughout treatment.',
+    },
+    intro: {
+      heading: 'Straighten Your Smile Discreetly with Invisible Braces at AVM Smiles',
+      paragraphs: [
+        'A properly aligned smile can boost both confidence and oral health. At AVM Smiles, we provide advanced invisible braces on teeth in Chennai that correct crooked, crowded or misaligned teeth while maintaining a natural appearance throughout treatment.',
+        'Unlike regular braces, invisible braces are designed to be far less noticeable — a preferred choice among teenagers, working professionals and adults who want discreet orthodontic treatment. If you’re looking for invisible dental braces in Chennai, our experienced orthodontists offer customized treatment plans for an effective, predictable smile transformation.',
+      ],
+    },
+    facts: [
+      { label: 'Treatment', value: '12–24 months' },
+      { label: 'Options', value: 'Clear / Ceramic / Metal' },
+      { label: 'Visibility', value: 'Discreet' },
+    ],
+    sections: [
+      {
+        type: 'text',
+        heading: 'What Are Invisible Braces?',
+        paragraphs: [
+          'Invisible braces are an orthodontic appliance that straightens your teeth without looking like traditional metal braces. They use clear or tooth-coloured brackets and wires to move teeth into the proper position over time.',
+          'These braces offer an ideal combination of appearance, performance and affordability — making them a preferred choice among many patients.',
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'How Do Invisible Braces Work?',
+        intro:
+          'Invisible braces apply gentle, consistent pressure to gradually move teeth into the correct position, with your orthodontist developing a safe, controlled treatment plan. They are effective in correcting:',
+        items: [
+          'Crooked teeth',
+          'Crowded teeth',
+          'Gaps between teeth',
+          'Overbite',
+          'Underbite',
+          'Crossbite',
+          'Open bite',
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Types of Braces Available',
+        items: [
+          {
+            icon: Sparkles,
+            title: 'Clear Braces for Teeth',
+            body: 'Transparent or tooth-coloured ceramic brackets that blend with your natural teeth — far less noticeable than metal.',
+          },
+          {
+            icon: Smile,
+            title: 'Ceramic Braces',
+            body: 'Work like traditional braces but with a more aesthetic appearance.',
+          },
+          {
+            icon: Frame,
+            title: 'Traditional Metal Braces',
+            body: 'Still a highly effective choice for complex orthodontic treatments.',
+          },
+          {
+            icon: Cpu,
+            title: 'Self-Ligating Braces',
+            body: 'Use special clips instead of elastic bands to reduce friction and increase comfort.',
+          },
+        ],
+      },
+      {
+        type: 'compare',
+        heading: 'Metal and Clear Braces: Which Is Right for You?',
+        intro: 'When comparing metal and clear braces, several factors matter:',
+        columns: [
+          {
+            title: 'Metal Braces',
+            items: [
+              'Highly durable',
+              'Effective for complex cases',
+              'Cost-effective',
+              'More visible',
+            ],
+          },
+          {
+            title: 'Clear Braces',
+            items: [
+              'More aesthetic appearance',
+              'Less noticeable',
+              'Popular among adults',
+              'Suitable for many orthodontic concerns',
+            ],
+          },
+        ],
+        outro:
+          'Our orthodontists help you decide the ideal option for your dental needs and lifestyle.',
+      },
+      {
+        type: 'steps',
+        heading: 'Invisible Braces Treatment Procedure',
+        items: [
+          {
+            title: 'Orthodontic Consultation',
+            body: 'A detailed examination, photographs and digital scans evaluate your teeth and bite.',
+          },
+          {
+            title: 'Treatment Planning',
+            body: 'A customized orthodontic plan determines the most efficient way to move your teeth.',
+          },
+          {
+            title: 'Braces Placement',
+            body: 'Clear or ceramic brackets are bonded to the teeth and orthodontic wires are placed.',
+          },
+          {
+            title: 'Regular Adjustments',
+            body: 'Regular visits let the orthodontist adjust the braces and monitor progress.',
+          },
+          {
+            title: 'Completion & Retainers',
+            body: 'Once alignment is complete, retainers are provided to maintain the results.',
+          },
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Benefits of Invisible Braces',
+        items: [
+          {
+            icon: Sparkles,
+            title: 'Enhanced Appearance',
+            body: 'Far less noticeable than conventional metal braces.',
+          },
+          {
+            icon: BadgeCheck,
+            title: 'Effective Alignment',
+            body: 'Corrects a wide variety of orthodontic problems.',
+          },
+          {
+            icon: Brush,
+            title: 'Improved Oral Health',
+            body: 'Straight teeth are easier to clean and care for.',
+          },
+          {
+            icon: Smile,
+            title: 'Better Confidence',
+            body: 'Patients feel more comfortable smiling during treatment.',
+          },
+          {
+            icon: ShieldCheck,
+            title: 'Long-Term Results',
+            body: 'Straight teeth benefit your oral health for the long term.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Who Is a Good Candidate for Invisible Braces?',
+        intro: 'Invisible braces may be suitable for:',
+        items: [
+          'Teenagers',
+          'Adults',
+          'Working professionals',
+          'Patients with mild to severe misalignment',
+          'Individuals seeking aesthetic orthodontic treatment',
+        ],
+        outro:
+          'Our orthodontists carry out a full examination to confirm whether invisible braces are right for you.',
+      },
+      {
+        type: 'list',
+        heading: 'Teeth Invisible Braces Price',
+        intro:
+          'Many patients ask about the cost of invisible braces before starting treatment. The cost depends on factors such as:',
+        items: [
+          'Severity of misalignment',
+          'Type of braces selected',
+          'Treatment duration',
+          'Complexity of tooth movement',
+          'Additional orthodontic procedures, if required',
+        ],
+        outro:
+          'At AVM Smiles, we offer transparent consultations and customised treatment plans that help you understand the teeth invisible braces price based on your individual needs.',
+      },
+      {
+        type: 'cards',
+        heading: 'Why Choose AVM Smiles for Invisible Braces?',
+        items: [
+          {
+            icon: GraduationCap,
+            title: 'Experienced Orthodontists',
+            body: 'Specialists with deep experience in modern orthodontic treatment.',
+          },
+          {
+            icon: Cpu,
+            title: 'Advanced Diagnostics',
+            body: 'Digital imaging and treatment planning for precise results.',
+          },
+          {
+            icon: ClipboardList,
+            title: 'Customized Care',
+            body: 'A treatment plan built around your personal smile goals.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Comfortable Experience',
+            body: 'Your comfort is our priority at every stage of treatment.',
+          },
+          {
+            icon: Gem,
+            title: 'High-Quality Materials',
+            body: 'Premium orthodontic materials for durability and effectiveness.',
+          },
+          {
+            icon: BadgeCheck,
+            title: 'Comprehensive Follow-Up',
+            body: 'Regular monitoring for the best outcomes and satisfaction.',
+          },
+        ],
+      },
+      {
+        type: 'tips',
+        heading: 'Caring for Your Invisible Braces',
+        boxLabel: 'Care tips',
+        body: 'Good oral hygiene is essential for successful orthodontic results.',
+        items: [
+          'Brush after every meal',
+          'Use orthodontic floss regularly',
+          'Avoid sticky and hard foods',
+          'Attend scheduled adjustment appointments',
+          'Wear retainers as instructed after treatment',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          'I was looking for invisible braces on teeth in Chennai and AVM Smiles gave excellent care. My smile has changed so much and it looks awesome.',
+        name: 'Nandhini R.',
+        location: 'Chennai',
+        initials: 'NR',
+      },
+      {
+        quote:
+          'My orthodontist guided me through the differences between metal and clear braces and helped me pick the best option. The treatment was easy and effective.',
+        name: 'Arjun K.',
+        location: 'Chennai',
+        initials: 'AK',
+      },
+      {
+        quote:
+          'I wanted something discreet to straighten my teeth, so I opted for invisible dental teeth braces in Chennai at AVM Smiles. The results were more than I imagined.',
+        name: 'Rahul S.',
+        location: 'Coimbatore',
+        initials: 'RS',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What are invisible braces?',
+        a: 'Invisible braces use clear or tooth-coloured brackets that are less noticeable than traditional metal braces while effectively straightening teeth.',
+      },
+      {
+        q: 'Are clear braces for teeth effective?',
+        a: 'Yes — clear braces for teeth are highly effective in correcting many orthodontic issues, including crowding, spacing and bite problems.',
+      },
+      {
+        q: 'What is the difference between metal and clear braces?',
+        a: 'The primary difference is appearance. Metal and clear braces function similarly, but clear braces are more aesthetically appealing.',
+      },
+      {
+        q: 'How long does treatment take?',
+        a: 'Treatment duration varies with the complexity of the case and typically ranges from 12 to 24 months.',
+      },
+      {
+        q: 'What is the teeth invisible braces price?',
+        a: 'The teeth invisible braces price depends on treatment complexity, duration and the type of braces selected. A consultation gives you an accurate, personalised estimate.',
+      },
+      {
+        q: 'Are invisible braces suitable for adults?',
+        a: 'Yes — invisible braces are a popular orthodontic solution for adults seeking discreet smile correction.',
+      },
+    ],
+    closing: {
+      heading: 'Book Your Invisible Braces Consultation Today',
+      body: 'Get a straighter, healthier smile with advanced invisible braces for teeth in Chennai at AVM Smiles. Our expert orthodontists use advanced techniques to design a treatment plan tailored to your needs — for results that are effective and pleasing to the eye. If you’re looking for invisible dental teeth braces in Chennai, book your appointment now and enjoy modern orthodontic care at AVM Smiles.',
+    },
+  },
+
+  'dental-veneer-treatment': {
+    seo: {
+      title: 'Best Dental Veneer Treatment in Chennai | AVM Smiles',
+      description:
+        'Transform your smile with the Best Dental Veneer Treatment in Chennai at AVM Smiles using high-quality, natural-looking veneers.',
+      keywords:
+        'dental veneer treatment, teeth veneer treatment, veneer treatment cost, veneer treatment for teeth',
+    },
+    hero: {
+      h1: 'Veneer Treatment in Chennai',
+      lead: 'Custom porcelain and composite veneers that correct stained, chipped or uneven teeth for a flawless, natural-looking smile.',
+    },
+    intro: {
+      heading: 'Transform Your Smile with Premium Dental Veneers at AVM Smiles',
+      paragraphs: [
+        'A beautiful smile can boost your confidence and enhance your overall appearance. AVM Smiles offers cosmetic dental veneer treatment in Chennai to correct stained, chipped, uneven, worn or slightly misaligned teeth with a natural look.',
+        'Our cosmetic dentistry experts create custom smile makeovers with porcelain and composite veneers that blend beautifully with your natural teeth. Looking for teeth veneer treatment in Chennai? Our customised approach ensures long-lasting aesthetics and an excellent smile transformation.',
+      ],
+    },
+    facts: [
+      { label: 'Treatment', value: '2–3 visits' },
+      { label: 'Materials', value: 'Porcelain / Composite' },
+      { label: 'Lifespan', value: '10–15 years' },
+    ],
+    sections: [
+      {
+        type: 'text',
+        heading: 'What Are Dental Veneers?',
+        paragraphs: [
+          'Dental veneers are thin, custom-made shells designed to fit over the front of your teeth to improve their appearance. Our goal is to correct a range of cosmetic concerns with the least removal of natural tooth structure possible.',
+          'Veneers are one of the most popular cosmetic dentistry treatments available today, improving the shape, colour, size and alignment of your teeth.',
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Who Can Benefit from Veneer Treatment?',
+        intro: 'Veneers are an ideal solution for patients who have:',
+        items: [
+          'Discoloured or stained teeth',
+          'Chipped or cracked teeth',
+          'Uneven tooth shapes',
+          'Minor gaps between teeth',
+          'Worn-down teeth',
+          'Mildly misaligned teeth',
+          'Irregular smile aesthetics',
+        ],
+        outro:
+          'Many patients choose veneer treatment for teeth in Chennai to get a brighter, more symmetrical and confident smile without extensive orthodontic treatment.',
+      },
+      {
+        type: 'cards',
+        heading: 'Types of Dental Veneers',
+        items: [
+          {
+            icon: Gem,
+            title: 'Porcelain Veneers',
+            body: 'Durable and stain-resistant with the most natural appearance — closely resembling enamel and lasting many years with proper care.',
+          },
+          {
+            icon: Layers,
+            title: 'Composite Veneers',
+            body: 'A tooth-coloured resin material, often completed in a single visit — a cost-effective way to improve your smile.',
+          },
+          {
+            icon: Sparkles,
+            title: 'Minimal-Prep Veneers',
+            body: 'Ultra-thin veneers that remove little or no enamel, preserving more of your natural tooth structure.',
+          },
+        ],
+      },
+      {
+        type: 'steps',
+        heading: 'Dental Veneer Treatment Procedure',
+        items: [
+          {
+            title: 'Smile Consultation',
+            body: 'Your cosmetic dentist examines your teeth, discusses your goals and confirms if veneers are right for you.',
+          },
+          {
+            title: 'Smile Design Planning',
+            body: 'We combine digital imaging and smile analysis to create a treatment plan made just for you.',
+          },
+          {
+            title: 'Tooth Preparation',
+            body: 'A small amount of enamel may be removed to ensure a precise, natural-looking fit.',
+          },
+          {
+            title: 'Impressions & Fabrication',
+            body: 'Precise impressions are taken and sent to a dental lab where your custom veneers are crafted.',
+          },
+          {
+            title: 'Veneer Placement',
+            body: 'The veneers are bonded to your teeth and shaped for the best fit, comfort and aesthetics.',
+          },
+          {
+            title: 'Final Smile Evaluation',
+            body: 'The dentist checks your bite and appearance to ensure beautiful, long-lasting results.',
+          },
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Benefits of Dental Veneers',
+        items: [
+          {
+            icon: Sparkles,
+            title: 'Instantly Enhances Smile',
+            body: 'Dramatically improves the colour, shape and alignment of your teeth.',
+          },
+          {
+            icon: Smile,
+            title: 'Natural-Looking Results',
+            body: 'Modern veneers are made to mimic natural tooth enamel.',
+          },
+          {
+            icon: ShieldCheck,
+            title: 'Long-Lasting Durability',
+            body: 'With proper care, porcelain veneers can last many years.',
+          },
+          {
+            icon: Gem,
+            title: 'Stain Resistance',
+            body: 'Porcelain veneers resist staining from coffee, tea and common foods.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Minimally Invasive',
+            body: 'Less modification of natural teeth than crowns.',
+          },
+          {
+            icon: BadgeCheck,
+            title: 'Boosts Confidence',
+            body: 'A beautiful smile lifts confidence in social and professional life.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'What Problems Can Veneers Correct?',
+        items: [
+          'Yellow or stained teeth',
+          'Small gaps between teeth',
+          'Chipped teeth',
+          'Uneven tooth edges',
+          'Minor crowding',
+          'Irregularly shaped teeth',
+          'Smile asymmetry',
+        ],
+        outro:
+          'Patients seeking dental veneer treatment in Chennai often choose veneers for comprehensive cosmetic improvements with minimal treatment time.',
+      },
+      {
+        type: 'list',
+        heading: 'Veneer Treatment Cost',
+        intro:
+          'One of the most common questions patients ask is about the veneer treatment cost. The overall cost depends on factors such as:',
+        items: [
+          'Number of veneers required',
+          'Type of veneer material used',
+          'Complexity of the smile design',
+          'Individual cosmetic goals',
+          'Additional dental treatments, if necessary',
+        ],
+        outro:
+          'At AVM Smiles, we provide transparent consultations and customized treatment plans to help you understand the veneer treatment cost based on your specific needs.',
+      },
+      {
+        type: 'cards',
+        heading: 'Why Choose AVM Smiles for Veneer Treatment?',
+        items: [
+          {
+            icon: GraduationCap,
+            title: 'Experienced Cosmetic Dentists',
+            body: 'Vast experience in smile makeovers and aesthetic dentistry.',
+          },
+          {
+            icon: Cpu,
+            title: 'Advanced Smile Design',
+            body: 'Digital smile analysis for accurate, predictable results.',
+          },
+          {
+            icon: Gem,
+            title: 'Premium Materials',
+            body: 'Premium porcelain and composite for better aesthetics and durability.',
+          },
+          {
+            icon: ClipboardList,
+            title: 'Customized Makeovers',
+            body: 'Each veneer is tailored to your facial features and smile goals.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Comfortable Experience',
+            body: 'We keep you comfortable every step of the way.',
+          },
+          {
+            icon: BadgeCheck,
+            title: 'Long-Term Support',
+            body: 'Ongoing smile maintenance and all-round aftercare advice.',
+          },
+        ],
+      },
+      {
+        type: 'table',
+        heading: 'Veneers vs Crowns: What’s the Difference?',
+        columns: ['Feature', 'Veneers', 'Crowns'],
+        rows: [
+          ['Coverage', 'Front surface only', 'Entire tooth'],
+          ['Cosmetic Improvement', 'Excellent', 'Good'],
+          ['Tooth Preparation', 'Minimal', 'More extensive'],
+          ['Best For', 'Cosmetic concerns', 'Structural damage'],
+          ['Natural Appearance', 'Highly aesthetic', 'Aesthetic & functional'],
+        ],
+        outro: 'Your dentist will recommend the most suitable option during your consultation.',
+      },
+      {
+        type: 'tips',
+        heading: 'Caring for Your Veneers',
+        boxLabel: 'Care tips',
+        body: 'Proper care can significantly extend the lifespan of your veneers.',
+        items: [
+          'Brush twice daily',
+          'Floss regularly',
+          'Avoid biting hard objects',
+          'Wear a night guard if you grind your teeth',
+          'Schedule routine dental check-ups',
+          'Limit excessive stain-causing foods and beverages',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          'I had dental veneer treatment done at AVM Smiles in Chennai and I couldn’t be happier. My smile looks perfectly natural and beautiful.',
+        name: 'Harini R.',
+        location: 'Chennai',
+        initials: 'HR',
+      },
+      {
+        quote:
+          'The doctor explained the whole procedure and the cost of veneer treatment clearly. The results were better than I expected.',
+        name: 'Karthik S.',
+        location: 'Coimbatore',
+        initials: 'KS',
+      },
+      {
+        quote:
+          'I wanted a smile makeover and went for teeth veneer treatment in Chennai. I’ve gained so much confidence from the transformation.',
+        name: 'Priya M.',
+        location: 'Chennai',
+        initials: 'PM',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is dental veneer treatment?',
+        a: 'Dental veneers are thin, custom-made shells placed on the front surface of teeth to enhance shape, colour and overall appearance — a popular cosmetic solution for a brighter, more uniform smile.',
+      },
+      {
+        q: 'How long do veneers last?',
+        a: 'Porcelain veneers typically last around 10–15 years or longer with proper oral hygiene. Regular check-ups and good care help extend their durability.',
+      },
+      {
+        q: 'Is veneer treatment painful?',
+        a: 'Veneer treatment is minimally invasive and usually causes little to no discomfort. Local anaesthesia may be used to ensure a comfortable, painless procedure.',
+      },
+      {
+        q: 'What is the veneer treatment cost?',
+        a: 'The veneer treatment cost varies based on the number of veneers, the material used and case complexity. A dental consultation is required for an accurate, personalised estimate.',
+      },
+      {
+        q: 'Are veneers permanent?',
+        a: 'Veneers are a long-term cosmetic treatment, as a small amount of enamel is usually removed. They are durable but may need replacement after several years of use.',
+      },
+      {
+        q: 'Can veneers stain over time?',
+        a: 'Porcelain veneers are highly resistant to stains and maintain their colour for years. Composite veneers may stain more easily and require more careful maintenance.',
+      },
+    ],
+    closing: {
+      heading: 'Book Your Veneer Consultation Today',
+      body: 'Get premium dental veneer treatment in Chennai at AVM Smiles to enhance your smile. Our experienced cosmetic dentists use modern techniques and high-quality materials to design personalised smile makeovers. If you’re thinking about teeth veneer treatment in Chennai or veneer treatment for teeth, AVM Smiles is here to help you achieve a confident, natural-looking smile. Book your consultation now and see the difference a beautiful smile can make.',
+    },
+  },
+
+  'dental-implants-treatment': {
+    seo: {
+      title: 'Best Dental Implants Treatment in Chennai | AVM Smiles',
+      description:
+        'AVM Smiles offers the Best Dental Implants Treatment in Chennai with advanced technology, expert dentists, and long-lasting smile restoration care.',
+      keywords:
+        'dental implants cleaning in chennai, dental implants treatment in chennai',
+    },
+    hero: {
+      h1: 'Dental Implants in Chennai',
+      lead: 'Permanent, natural-looking tooth replacement that functions like your own teeth and protects your jawbone — the gold standard in restoration.',
+    },
+    intro: {
+      heading: 'Restore Your Smile Permanently with Advanced Dental Implants at AVM Smiles',
+      paragraphs: [
+        'Missing teeth can affect your smile, confidence, speech and ability to chew comfortably. At AVM Smiles, our experienced dentists offer advanced dental implants treatment in Chennai to replace missing teeth with strong, natural-looking and long-lasting solutions.',
+        'Dental implants are the gold standard for tooth replacement because they function like natural teeth and help maintain the jawbone. Whether you’re missing a single tooth or a full arch, our implant specialists design a customized treatment plan to bring back your smile and oral function.',
+      ],
+    },
+    facts: [
+      { label: 'Treatment', value: '3–6 months' },
+      { label: 'Material', value: 'Titanium' },
+      { label: 'Lifespan', value: 'Lifelong with care' },
+    ],
+    sections: [
+      {
+        type: 'text',
+        heading: 'What Are Dental Implants?',
+        paragraphs: [
+          'Dental implants are artificial tooth roots made from biocompatible titanium and surgically inserted into the jawbone. Once the implant integrates with the bone, it can support a dental crown, bridge or denture.',
+          'Implants provide better stability, comfort and durability than conventional dentures or bridges.',
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Why Choose Dental Implants?',
+        intro: 'Dental implants offer numerous advantages over other tooth-replacement options:',
+        items: [
+          'Natural appearance and function',
+          'Improved chewing ability',
+          'Enhanced speech clarity',
+          'Long-lasting solution',
+          'Prevents jawbone loss',
+          'Maintains facial structure',
+          'Protects adjacent teeth',
+          'Increased confidence and comfort',
+        ],
+        outro:
+          'Patients searching for dental implants treatment in Chennai frequently choose them because they are durable and feel natural.',
+      },
+      {
+        type: 'list',
+        heading: 'Who Is a Candidate for Dental Implants?',
+        intro: 'You may be a suitable candidate if you:',
+        items: [
+          'Have one or more missing teeth',
+          'Have healthy gums',
+          'Have sufficient jawbone density',
+          'Are in good overall health',
+          'Want a permanent tooth-replacement solution',
+          'Are committed to maintaining oral hygiene',
+        ],
+        outro: 'A detailed consultation helps determine your suitability for implant treatment.',
+      },
+      {
+        type: 'cards',
+        heading: 'Types of Dental Implants',
+        items: [
+          {
+            icon: Crown,
+            title: 'Single Tooth Implant',
+            body: 'Replaces one missing tooth with a dental crown.',
+          },
+          {
+            icon: Layers,
+            title: 'Multiple Teeth Implants',
+            body: 'Supports a dental bridge when several teeth are missing.',
+          },
+          {
+            icon: Smile,
+            title: 'Full Mouth Implants',
+            body: 'Replaces an entire arch using strategically placed implants.',
+          },
+          {
+            icon: Wrench,
+            title: 'Implant-Supported Dentures',
+            body: 'Superior stability compared to traditional removable dentures.',
+          },
+          {
+            icon: Activity,
+            title: 'Immediate Implants',
+            body: 'In select cases, implants can be placed immediately after extraction.',
+          },
+        ],
+      },
+      {
+        type: 'steps',
+        heading: 'Dental Implant Treatment Procedure',
+        items: [
+          {
+            title: 'Consultation & Assessment',
+            body: 'A thorough evaluation with digital X-rays and 3D imaging assesses your bone structure and oral health.',
+          },
+          {
+            title: 'Treatment Planning',
+            body: 'A treatment plan is customised around your needs and goals.',
+          },
+          {
+            title: 'Implant Placement',
+            body: 'The titanium implant is surgically placed into the jawbone under local anaesthesia.',
+          },
+          {
+            title: 'Healing & Osseointegration',
+            body: 'Over the next few months, the implant fuses with your jawbone through osseointegration.',
+          },
+          {
+            title: 'Abutment Placement',
+            body: 'A connecting part called an abutment is attached to the implant.',
+          },
+          {
+            title: 'Crown or Prosthesis Placement',
+            body: 'A custom crown, bridge or denture is securely attached to complete the restoration.',
+          },
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Benefits of Dental Implant Treatment',
+        items: [
+          {
+            icon: ShieldCheck,
+            title: 'Permanent Replacement',
+            body: 'A long-term solution for missing teeth.',
+          },
+          {
+            icon: Smile,
+            title: 'Natural Look & Feel',
+            body: 'Closely resembles natural teeth in appearance and function.',
+          },
+          {
+            icon: Sparkles,
+            title: 'Improved Oral Health',
+            body: 'Unlike bridges, implants don’t require modifying neighbouring teeth.',
+          },
+          {
+            icon: Activity,
+            title: 'Bone Preservation',
+            body: 'Helps prevent bone deterioration after tooth loss.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Enhanced Comfort',
+            body: 'No slipping or movement associated with dentures.',
+          },
+        ],
+      },
+      {
+        type: 'cards',
+        heading: 'Why Choose AVM Smiles for Dental Implants?',
+        items: [
+          {
+            icon: GraduationCap,
+            title: 'Implant Specialists',
+            body: 'Years of expertise in implant dentistry and advanced restorations.',
+          },
+          {
+            icon: Cpu,
+            title: 'Advanced Digital Technology',
+            body: 'Digital planning and 3D imaging for accurate implant placement.',
+          },
+          {
+            icon: BadgeCheck,
+            title: 'High-Quality Systems',
+            body: 'Internationally recognised implant systems known for reliability.',
+          },
+          {
+            icon: ClipboardList,
+            title: 'Personalized Plans',
+            body: 'Customised care tailored to your specific dental requirements.',
+          },
+          {
+            icon: HeartHandshake,
+            title: 'Comfortable & Safe',
+            body: 'Modern, minimally-invasive techniques for patient comfort.',
+          },
+          {
+            icon: ShieldCheck,
+            title: 'Comprehensive Aftercare',
+            body: 'With you every step of the way — from surgery to maintenance.',
+          },
+        ],
+      },
+      {
+        type: 'list',
+        heading: 'Dental Implants Cleaning in Chennai',
+        intro:
+          'Keeping your dental implants well-maintained is essential for their longevity. AVM Smiles offers specialized dental implants cleaning in Chennai to keep them healthy and avoid problems like peri-implantitis. Professional implant cleaning helps:',
+        items: [
+          'Remove plaque and bacteria',
+          'Protect gum health',
+          'Maintain implant stability',
+          'Prevent implant-related infections',
+          'Extend implant lifespan',
+        ],
+        outro:
+          'Regular dental check-ups and professional dental implants cleaning in Chennai play a significant role in successful implant results.',
+      },
+      {
+        type: 'table',
+        heading: 'Dental Implants vs Traditional Dentures',
+        columns: ['Feature', 'Dental Implants', 'Dentures'],
+        rows: [
+          ['Stability', 'Excellent', 'Moderate'],
+          ['Appearance', 'Natural', 'Natural'],
+          ['Jawbone Preservation', 'Yes', 'No'],
+          ['Longevity', 'Long-term', 'Requires replacement'],
+          ['Comfort', 'High', 'Variable'],
+          ['Maintenance', 'Like natural teeth', 'Removal & cleaning'],
+        ],
+      },
+      {
+        type: 'tips',
+        heading: 'Caring for Your Dental Implants',
+        boxLabel: 'Care tips',
+        body: 'Good oral hygiene significantly contributes to implant longevity.',
+        items: [
+          'Brush twice daily',
+          'Floss around implants regularly',
+          'Use recommended oral hygiene products',
+          'Attend routine dental check-ups',
+          'Schedule professional implant cleanings',
+          'Avoid tobacco products',
+          'Follow your dentist’s instructions',
+        ],
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          'I had dental implants treatment in Chennai at AVM Smiles. The results are amazing — my implant feels just like a natural tooth.',
+        name: 'Arun K.',
+        location: 'Chennai',
+        initials: 'AK',
+      },
+      {
+        quote:
+          'The treatment was comfortable and everything was explained very clearly. I highly recommend AVM Smiles for dental implants.',
+        name: 'Priya S.',
+        location: 'Coimbatore',
+        initials: 'PS',
+      },
+      {
+        quote:
+          'My implants were professionally cleaned by the dentists at AVM Smiles. They are working perfectly and are healthy.',
+        name: 'Ramesh V.',
+        location: 'Chennai',
+        initials: 'RV',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What are dental implants?',
+        a: 'Dental implants are titanium posts placed into the jawbone to replace missing tooth roots and support replacement teeth.',
+      },
+      {
+        q: 'Is dental implant surgery painful?',
+        a: 'The procedure is performed under local anaesthesia, making it comfortable for most patients, with only mild soreness afterward.',
+      },
+      {
+        q: 'How long do dental implants last?',
+        a: 'With proper care and regular maintenance, dental implants can last many years and often a lifetime.',
+      },
+      {
+        q: 'How long does dental implant treatment take?',
+        a: 'Treatment duration varies with individual needs, but complete restoration typically takes several months due to healing and osseointegration.',
+      },
+      {
+        q: 'Why is dental implants cleaning important?',
+        a: 'Professional dental implants cleaning in Chennai helps prevent infection, maintain gum health and increase implant longevity.',
+      },
+      {
+        q: 'Am I eligible for dental implants?',
+        a: 'Most healthy adults with sufficient jawbone density are good candidates. A consultation and examination will determine your suitability.',
+      },
+    ],
+    closing: {
+      heading: 'Book Your Dental Implant Consultation Today',
+      body: 'Restore your smile, confidence and oral function with advanced dental implants treatment in Chennai at AVM Smiles. Whether you need a single implant, a full-mouth restoration or professional dental implants cleaning in Chennai, AVM Smiles provides reliable care and successful treatment outcomes. Schedule your consultation today and take the first step toward a healthy, full smile.',
+    },
+  },
+}
+
+export const getServiceContent = (slug) => serviceContent[slug] || null
+
+export default serviceContent
