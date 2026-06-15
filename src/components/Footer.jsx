@@ -97,12 +97,12 @@ export default function Footer() {
           {/* Services */}
           <div className="lg:col-span-3">
             <ColTitle>Services</ColTitle>
-            <ul className="grid grid-cols-1 gap-x-6 gap-y-3 sm:grid-cols-2">
+            <ul className="columns-1 gap-x-6 sm:columns-2">
               {services.map((s) => (
-                <li key={s.slug}>
+                <li key={s.slug} className="mb-3 break-inside-avoid">
                   <Link
                     to={`/services/${s.slug}`}
-                    className="text-sm text-white/70 transition-colors hover:text-white"
+                    className="inline-block text-sm leading-snug text-white/70 transition-colors hover:text-white"
                   >
                     {s.name}
                   </Link>
