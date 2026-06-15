@@ -6,7 +6,7 @@ import SectionHeading from '../components/SectionHeading'
 import StarRating from '../components/StarRating'
 import { Quote } from 'lucide-react'
 import { staggerParent, staggerItem, viewportOnce } from '../lib/motion'
-import { Reviews, VideoTestimonials, FinalCta } from '../sections'
+import { Reviews, FinalCta } from '../sections'
 import testimonials from '../data/testimonials'
 
 export default function Testimonials() {
@@ -67,7 +67,6 @@ export default function Testimonials() {
         </motion.div>
       </Section>
 
-      <VideoTestimonials />
       <FinalCta />
     </>
   )

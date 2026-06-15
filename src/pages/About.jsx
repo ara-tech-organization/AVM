@@ -5,7 +5,6 @@ import {
   About as AboutSection,
   WhyChoose,
   Process,
-  Doctor,
   FinalCta,
 } from '../sections'
 
@@ -27,7 +26,6 @@ export default function About() {
       <AboutStory />
       <AboutSection />
       <WhyChoose />
-      <Doctor />
       <Process />
       <FinalCta />
     </>

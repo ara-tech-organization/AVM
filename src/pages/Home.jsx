@@ -7,8 +7,6 @@ import {
   WhyChoose,
   BeforeAfter,
   Process,
-  Doctor,
-  VideoTestimonials,
   Reviews,
   Faq,
   FinalCta,
@@ -34,8 +32,6 @@ export default function Home() {
       <WhyChoose />
       <BeforeAfter />
       <Process />
-      <Doctor />
-      <VideoTestimonials />
       <Reviews />
       <Faq />
       <FinalCta />
