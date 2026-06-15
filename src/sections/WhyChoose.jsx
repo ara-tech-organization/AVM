@@ -6,7 +6,7 @@ import SmartImage from '../components/SmartImage'
 import Button from '../components/Button'
 import { fadeRight, staggerParent, staggerItem, viewportOnce } from '../lib/motion'
 import { whyChoose } from '../data/whyChoose'
-import images from '../data/images'
+import { higherStandardImage } from '../data/treatmentImages'
 
 /**
  * Split-screen editorial layout — a sticky visual statement on the left, an
@@ -36,8 +36,8 @@ export default function WhyChoose() {
 
             <div className="relative mt-8 overflow-hidden rounded-[2rem] shadow-card">
               <SmartImage
-                src={images.whyEnvironment}
-                alt="Calm, modern treatment room at AVM Smiles"
+                src={higherStandardImage}
+                alt="A higher standard of dental care at AVM Smiles"
                 className="aspect-[4/3] w-full"
                 imgClassName="transition-transform duration-700 hover:scale-105"
               />

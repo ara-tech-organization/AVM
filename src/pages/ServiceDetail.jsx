@@ -19,6 +19,8 @@ import StarRating from '../components/StarRating'
 import { fadeUp, staggerParent, staggerItem, viewportOnce } from '../lib/motion'
 import services, { getServiceBySlug } from '../data/services'
 import { getServiceContent } from '../data/serviceContent'
+import { getTreatmentImage } from '../data/treatmentImages'
+import SmartImage from '../components/SmartImage'
 import { site } from '../data/site'
 
 /* ----------------------------- section renderers ---------------------------- */
@@ -324,6 +326,14 @@ export default function ServiceDetail() {
             <div className="lg:col-span-8">
               {/* Intro */}
               <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce}>
+                <div className="mb-8 overflow-hidden rounded-3xl shadow-card">
+                  <SmartImage
+                    src={getTreatmentImage(service.slug)}
+                    alt={service.name}
+                    loading="eager"
+                    className="aspect-[16/9] w-full"
+                  />
+                </div>
                 <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-brand-600 text-white shadow-card">
                   <service.icon className="h-8 w-8" />
                 </span>
