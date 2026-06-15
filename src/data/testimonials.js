@@ -4,27 +4,27 @@ export const testimonials = [
     name: 'Priya Raghavan',
     location: 'Chennai',
     rating: 5,
-    treatment: 'Dental Implants',
+    treatment: 'General Dentistry',
     quote:
-      'My dental implant procedure was made totally comfortable by AVM Smiles doctors and I am pleased with the results. The entire team was reassuring at every step.',
+      'AVM Smiles Dental Clinic was outstanding from start to finish. The dentists were patient, knew exactly what they were doing and made sure I was comfortable throughout — their commitment to patient satisfaction truly sets them apart.',
     initials: 'PR',
   },
   {
     name: 'Arjun Mehta',
     location: 'Chennai',
     rating: 5,
-    treatment: 'General Dentistry',
+    treatment: 'Patient Experience',
     quote:
-      'Excellent service, friendly staff, and modern facilities. AVM Smiles is highly recommended for anyone in search of the best dental clinic in Chennai.',
+      'I visited for a dental procedure at AVM Smiles and was impressed by the professionalism of the whole dental team. The clinic combines modern technology with caring, compassionate service, so every visit is a good experience.',
     initials: 'AM',
   },
   {
     name: 'Sneha Karthik',
     location: 'Chennai',
     rating: 5,
-    treatment: 'Invisible Aligners',
+    treatment: 'Dental Care',
     quote:
-      'I had a very smooth and effective Invisalign treatment. Now I smile with confidence. The 3D plan showed me exactly what to expect — and it delivered.',
+      'I had an excellent experience at AVM Smiles Dental Clinic. The dentists were very professional and friendly and explained each phase of my treatment clearly. The clinic was clean and tidy and the whole visit was comfortable — highly recommended for quality dental care.',
     initials: 'SK',
   },
   {

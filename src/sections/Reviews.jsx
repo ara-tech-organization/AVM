@@ -45,7 +45,7 @@ export default function Reviews() {
         >
           <Eyebrow>Patient Reviews</Eyebrow>
           <h2 className="mt-4 text-3xl font-bold text-ink sm:text-4xl">
-            Loved by patients across Chennai
+            What Our Patients Say
           </h2>
 
           <div className="mt-7 rounded-3xl border border-line bg-surface p-7 shadow-soft">
