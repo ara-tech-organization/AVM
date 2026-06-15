@@ -32,13 +32,10 @@ function ServiceCard({ service }) {
           <Clock className="h-3.5 w-3.5" />
           {service.duration}
         </span>
-        <span className="absolute -bottom-6 left-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-600 text-white shadow-[0_10px_24px_-10px_rgba(67,59,157,0.7)] ring-4 ring-white transition-transform duration-500 group-hover:scale-110">
-          <service.icon className="h-6 w-6" />
-        </span>
       </div>
 
       {/* Body */}
-      <div className="flex flex-1 flex-col px-6 pb-6 pt-9">
+      <div className="flex flex-1 flex-col p-6">
         <p className="text-xs font-semibold uppercase tracking-[0.16em] text-accent-500">
           {service.tagline}
         </p>
