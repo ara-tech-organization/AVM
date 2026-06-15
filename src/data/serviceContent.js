@@ -170,6 +170,11 @@ export const serviceContent = {
             title: 'Strict Sterilization',
             body: 'We maintain a clean, hygienic environment with international safety protocols.',
           },
+          {
+            icon: IndianRupee,
+            title: 'Affordable Treatment Options',
+            body: 'Quality dental care with transparent pricing and treatment plans tailored to your needs.',
+          },
         ],
       },
       {
@@ -182,6 +187,7 @@ export const serviceContent = {
           'Maintain proper oral hygiene',
           'Take prescribed medications as directed',
           'Avoid strenuous activities immediately after treatment',
+          'Apply ice packs to reduce swelling',
         ],
       },
     ],
@@ -206,6 +212,13 @@ export const serviceContent = {
         name: 'Mohammed R.',
         location: 'Coimbatore',
         initials: 'MR',
+      },
+      {
+        quote:
+          'The team at AVM Smiles was extremely caring and professional throughout my tooth extraction treatment. The procedure was quick and comfortable, and the post-treatment support helped me recover without any complications.',
+        name: 'Lakshmi V.',
+        location: 'Chennai',
+        initials: 'LV',
       },
     ],
     faqs: [
