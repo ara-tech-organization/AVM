@@ -1,3 +1,5 @@
+import whoWeAre from '../assets/who-we-are.png'
+
 /**
  * Centralised image URLs (Unsplash CDN). Swap these for licensed brand
  * photography before launch. SmartImage falls back to a branded block if any
@@ -14,7 +16,7 @@ export const images = {
   // About / bento
   aboutCare: u('1576091160550-2173dba999ef', 1100), // dentist with patient
   aboutTech: u('1631549916768-4119b2e5f926', 900), // dental equipment
-  aboutTeam: u('1582750433449-648ed127bb54', 900), // medical team
+  aboutTeam: whoWeAre,
   aboutClinic: u('1629909615184-74f495363b67', 1000), // clinic room
 
   // Why choose

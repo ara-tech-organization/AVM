@@ -161,7 +161,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col items-center justify-between gap-3 border-t border-white/10 py-6 text-xs text-white/50 sm:flex-row">
           <p>© {2026} AVM Smiles. All rights reserved.</p>
-          <p>Best Dental Clinic in Chennai · Crafted with care for healthier smiles.</p>
+          <p>Crafted by ARA Discover Technologies</p>
         </div>
       </Container>
     </footer>

@@ -3,22 +3,11 @@ import Seo from '../components/Seo'
 import PageHeader from '../components/PageHeader'
 import Section from '../components/Section'
 import SectionHeading from '../components/SectionHeading'
-import SmartImage from '../components/SmartImage'
 import BeforeAfterSlider from '../components/BeforeAfterSlider'
 import { staggerParent, staggerItem, viewportOnce } from '../lib/motion'
 import { FinalCta } from '../sections'
 import transformations from '../data/gallery'
-import images from '../data/images'
-
-// Varied spans for an asymmetrical masonry grid.
-const tileSpans = [
-  'sm:col-span-2 sm:row-span-2',
-  'sm:col-span-1',
-  'sm:col-span-1',
-  'sm:col-span-1',
-  'sm:col-span-1',
-  'sm:col-span-2',
-]
+import galleryVideos from '../data/galleryVideos'
 
 export default function Gallery() {
   return (
@@ -63,34 +52,37 @@ export default function Gallery() {
         </div>
       </Section>
 
-      {/* Masonry image grid */}
+      {/* Patient videos */}
       <Section tone="surface">
         <SectionHeading
           align="left"
-          eyebrow="Our clinic & patients"
-          title="A closer look at AVM Smiles"
+          eyebrow="Patient Videos"
+          title="Stories from our patients"
         />
         <motion.div
           variants={staggerParent(0.08)}
           initial="hidden"
           whileInView="show"
           viewport={viewportOnce}
-          className="mt-10 grid auto-rows-[200px] grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-5"
+          className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
         >
-          {images.gallery.map((src, i) => (
-            <motion.div
-              key={src}
+          {galleryVideos.map((video) => (
+            <motion.figure
+              key={video.id}
               variants={staggerItem}
-              className={`group relative overflow-hidden rounded-3xl shadow-soft ${tileSpans[i % tileSpans.length]}`}
+              className="overflow-hidden rounded-3xl bg-black shadow-card"
             >
-              <SmartImage
-                src={src}
-                alt={`AVM Smiles gallery image ${i + 1}`}
-                className="h-full w-full"
-                imgClassName="transition-transform duration-700 group-hover:scale-105"
+              <video
+                src={video.src}
+                controls
+                preload="metadata"
+                playsInline
+                className="aspect-[9/16] w-full bg-black object-cover"
               />
-              <div className="absolute inset-0 bg-brand-900/0 transition-colors duration-500 group-hover:bg-brand-900/20" />
-            </motion.div>
+              <figcaption className="bg-white px-5 py-4">
+                <p className="font-bold text-ink">{video.title}</p>
+              </figcaption>
+            </motion.figure>
           ))}
         </motion.div>
       </Section>
