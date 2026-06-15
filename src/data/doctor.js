@@ -3,7 +3,7 @@ import images from './images'
 /** Chief dental surgeon profile. Replace name/contact placeholders. */
 export const doctor = {
   name: 'Dr. [Doctor Name]',
-  role: 'Chief Dental Surgeon & Founder',
+  role: 'Chief Dental Surgeon',
   image: images.doctorPortrait,
   experience: '10+ Years',
   qualifications: [

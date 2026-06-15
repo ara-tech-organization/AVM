@@ -107,9 +107,9 @@ export default function VideoTestimonials() {
   return (
     <Section id="video-testimonials" tone="white">
       <SectionHeading
-        eyebrow="In their words"
+        eyebrow="Video Testimonials"
         title="Hear from Our Happy Patients"
-        intro="Real patients share their journey to a healthier, more confident smile at AVM Smiles."
+        intro="Hear directly from our patients as they share their treatment journeys, smile transformations and experiences at AVM Smiles."
       />
 
       {/* Asymmetric layout — one feature video + two stacked */}

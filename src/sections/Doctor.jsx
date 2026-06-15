@@ -89,14 +89,32 @@ export default function Doctor() {
           className="lg:col-span-7"
         >
           <Eyebrow>Meet Our Expert Dentist</Eyebrow>
-          <h2 className="mt-4 text-3xl font-bold text-ink sm:text-4xl">{doctor.name}</h2>
-          <p className="mt-2 text-lg font-medium text-accent-600">{doctor.role}</p>
+          <h2 className="mt-4 text-3xl font-bold text-ink sm:text-4xl">
+            Experienced Dental Care You Can Trust
+          </h2>
 
-          {/* Qualifications */}
-          <div className="mt-5 flex flex-wrap gap-2.5">
-            {doctor.qualifications.map((q) => (
-              <Pill key={q}>{q}</Pill>
-            ))}
+          {/* Name + role */}
+          <div className="mt-6">
+            <p className="text-2xl font-bold text-ink">{doctor.name}</p>
+            <p className="mt-1 text-base font-medium text-accent-600">{doctor.role}</p>
+          </div>
+
+          {/* Qualifications + Experience */}
+          <div className="mt-7 grid gap-6 sm:grid-cols-2">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-wide text-ink">Qualifications</p>
+              <div className="mt-3 flex flex-wrap gap-2.5">
+                {doctor.qualifications.map((q) => (
+                  <Pill key={q}>{q}</Pill>
+                ))}
+              </div>
+            </div>
+            <div>
+              <p className="text-sm font-bold uppercase tracking-wide text-ink">Experience</p>
+              <p className="mt-3 text-lg font-semibold text-brand-700">
+                {doctor.experience} of Clinical Experience
+              </p>
+            </div>
           </div>
 
           {/* Expertise tags */}
@@ -124,8 +142,8 @@ export default function Doctor() {
 
           {/* Credential cards */}
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
-            <CredentialGroup icon={GraduationCap} title="Memberships" items={doctor.memberships} />
-            <CredentialGroup icon={Award} title="Certifications" items={doctor.certifications} />
+            <CredentialGroup icon={GraduationCap} title="Professional Memberships" items={doctor.memberships} />
+            <CredentialGroup icon={Award} title="Certifications & Awards" items={doctor.certifications} />
           </div>
 
           <div className="mt-8">
