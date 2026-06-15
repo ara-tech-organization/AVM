@@ -305,6 +305,7 @@ export const serviceContent = {
           'To improve smile aesthetics',
           'Difficulty chewing or speaking',
           'Preventing teeth from shifting',
+          'Worn-down teeth',
         ],
       },
       {
@@ -396,6 +397,7 @@ export const serviceContent = {
           'Strengthens weak teeth',
           'Long-lasting solution',
           'Boosts confidence',
+          'Maintains facial structure',
         ],
       },
       {
@@ -437,6 +439,11 @@ export const serviceContent = {
             title: 'Strict Hygiene & Safety',
             body: 'International sterilisation and safety standards.',
           },
+          {
+            icon: BadgeCheck,
+            title: 'Long-Lasting Solutions',
+            body: 'Durable restorations built to look and perform well for years.',
+          },
         ],
       },
       {
@@ -449,6 +456,7 @@ export const serviceContent = {
           'Attend regular dental check-ups',
           'Use recommended toothpaste and floss',
           'Follow your dentist’s instructions carefully',
+          'Avoid teeth grinding or clenching',
         ],
       },
     ],
@@ -473,6 +481,13 @@ export const serviceContent = {
         name: 'Mohammed F.',
         location: 'Coimbatore',
         initials: 'MF',
+      },
+      {
+        quote:
+          'I got my crown and bridge treatment done at AVM Smiles and I’m extremely satisfied with the results. The fit is perfect, the appearance is natural, and the entire experience was smooth and comfortable from start to finish.',
+        name: 'Deepa M.',
+        location: 'Chennai',
+        initials: 'DM',
       },
     ],
     faqs: [
@@ -616,6 +631,7 @@ export const serviceContent = {
           'Affordable tooth-replacement option',
           'Custom-made for comfort',
           'Improves confidence and quality of life',
+          'Easy maintenance and cleaning',
         ],
       },
       {
@@ -657,6 +673,11 @@ export const serviceContent = {
             title: 'Hygienic & Safe',
             body: 'A clean, safe and hygienic clinic environment.',
           },
+          {
+            icon: BadgeCheck,
+            title: 'Long-Lasting Dentures',
+            body: 'Durable dentures crafted to stay comfortable and functional for years.',
+          },
         ],
       },
       {
@@ -695,6 +716,13 @@ export const serviceContent = {
         name: 'S. Kumar',
         location: 'Coimbatore',
         initials: 'SK',
+      },
+      {
+        quote:
+          'I got my dentures done at AVM Smiles and the experience was excellent. The fit is very comfortable, and I can speak and eat much better now.',
+        name: 'Meena R.',
+        location: 'Chennai',
+        initials: 'MR',
       },
     ],
     faqs: [
@@ -773,6 +801,7 @@ export const serviceContent = {
           'Pimple-like swelling on the gums',
           'Deep decay or infection',
           'Cracked or broken tooth',
+          'Persistent toothache at night',
         ],
         outro: 'Early diagnosis can prevent tooth loss and further complications.',
       },
@@ -838,6 +867,7 @@ export const serviceContent = {
           'Maintains your natural smile',
           'Long-lasting dental solution',
           'Avoids tooth extraction',
+          'Restores normal tooth function',
         ],
       },
       {
@@ -879,6 +909,11 @@ export const serviceContent = {
             title: 'Personalized Care',
             body: 'Treatment tailored to your individual needs.',
           },
+          {
+            icon: Zap,
+            title: 'Quick & Efficient',
+            body: 'Streamlined treatment that saves you time without compromising care.',
+          },
         ],
       },
       {
@@ -917,6 +952,13 @@ export const serviceContent = {
         name: 'Mohammed R.',
         location: 'Coimbatore',
         initials: 'MR',
+      },
+      {
+        quote:
+          'I underwent root canal treatment at AVM Smiles and the experience was excellent. The procedure was completely comfortable and the pain was relieved immediately.',
+        name: 'Divya K.',
+        location: 'Chennai',
+        initials: 'DK',
       },
     ],
     faqs: [
@@ -995,6 +1037,7 @@ export const serviceContent = {
           'Certain medications',
           'Excess fluoride exposure',
           'Food stains (curries, sauces, etc.)',
+          'Tooth trauma or injury',
         ],
       },
       {
@@ -1059,6 +1102,7 @@ export const serviceContent = {
           'Quick treatment with immediate results',
           'Enhances overall appearance',
           'Improves smile aesthetics',
+          'Long-lasting whitening results',
         ],
       },
       {
@@ -1113,6 +1157,11 @@ export const serviceContent = {
             title: 'Comfortable Environment',
             body: 'A clean, hygienic and relaxing clinic environment.',
           },
+          {
+            icon: BadgeCheck,
+            title: 'Long-Lasting Results',
+            body: 'Whitening that keeps your smile brighter for longer.',
+          },
         ],
       },
       {
@@ -1125,6 +1174,7 @@ export const serviceContent = {
           'Use a dentist-recommended toothpaste',
           'Schedule regular dental cleanings',
           'Avoid stain-causing foods initially',
+          'Stay hydrated and rinse your mouth after meals',
         ],
       },
     ],
@@ -1149,6 +1199,13 @@ export const serviceContent = {
         name: 'Ahmed F.',
         location: 'Coimbatore',
         initials: 'AF',
+      },
+      {
+        quote:
+          'I’m really happy with my teeth whitening treatment at AVM Smiles. The results were quick and safe, and my smile looks much brighter and more natural.',
+        name: 'Meena L.',
+        location: 'Chennai',
+        initials: 'ML',
       },
     ],
     faqs: [
@@ -1252,6 +1309,7 @@ export const serviceContent = {
           'Visible tartar build-up',
           'Stained teeth',
           'Receding gums',
+          'Rough or sticky tooth surface',
         ],
         outro:
           'If you notice any of these symptoms, a professional cleaning may be recommended.',
@@ -1307,6 +1365,7 @@ export const serviceContent = {
           'Reduce plaque accumulation',
           'Improve smile aesthetics',
           'Provide a fresh, clean feeling',
+          'Help prevent faster plaque build-up',
         ],
         outro:
           'This final step greatly enhances the effectiveness of professional dental cleanings.',
@@ -1405,6 +1464,13 @@ export const serviceContent = {
         location: 'Chennai',
         initials: 'PS',
       },
+      {
+        quote:
+          'I had scaling and polishing done at AVM Smiles and the experience was excellent. The procedure was gentle and my teeth feel incredibly fresh and smooth.',
+        name: 'Mohammed A.',
+        location: 'Chennai',
+        initials: 'MA',
+      },
     ],
     faqs: [
       {
@@ -1484,6 +1550,7 @@ export const serviceContent = {
           'Underbite',
           'Crossbite',
           'Mild to moderate orthodontic issues',
+          'Rotated teeth',
         ],
       },
       {
@@ -1496,6 +1563,7 @@ export const serviceContent = {
           'Adults wanting discreet smile correction',
           'Patients with mild to moderate teeth misalignment',
           'Individuals looking for an alternative to metal braces',
+          'People with spacing or crowding issues',
         ],
         outro:
           'Patients looking for teeth invisible aligners in Chennai prefer aligners for their comfort and convenience.',
@@ -1627,6 +1695,7 @@ export const serviceContent = {
           'Clean aligners regularly with recommended solutions',
           'Brush and floss before reinserting aligners',
           'Store aligners properly when not in use',
+          'Change aligners as per your dentist’s schedule',
         ],
       },
     ],
@@ -1651,6 +1720,13 @@ export const serviceContent = {
         name: 'Priya M.',
         location: 'Chennai',
         initials: 'PM',
+      },
+      {
+        quote:
+          'I chose AVM Smiles for invisible aligner treatment and the experience was excellent. The aligners were comfortable, easy to use, and the results started showing within a few weeks.',
+        name: 'Mohammed R.',
+        location: 'Chennai',
+        initials: 'MR',
       },
     ],
     faqs: [
@@ -1731,6 +1807,7 @@ export const serviceContent = {
           'Underbite',
           'Crossbite',
           'Open bite',
+          'Rotated teeth',
         ],
       },
       {
@@ -1841,6 +1918,11 @@ export const serviceContent = {
             title: 'Long-Term Results',
             body: 'Straight teeth benefit your oral health for the long term.',
           },
+          {
+            icon: HeartHandshake,
+            title: 'Comfortable Experience',
+            body: 'Smooth, low-irritation brackets for a more comfortable treatment than traditional metal braces.',
+          },
         ],
       },
       {
@@ -1853,6 +1935,7 @@ export const serviceContent = {
           'Working professionals',
           'Patients with mild to severe misalignment',
           'Individuals seeking aesthetic orthodontic treatment',
+          'Patients with spacing or crowding issues',
         ],
         outro:
           'Our orthodontists carry out a full examination to confirm whether invisible braces are right for you.',
@@ -1868,6 +1951,7 @@ export const serviceContent = {
           'Treatment duration',
           'Complexity of tooth movement',
           'Additional orthodontic procedures, if required',
+          'Clinic location and the orthodontist’s expertise',
         ],
         outro:
           'At AVM Smiles, we offer transparent consultations and customised treatment plans that help you understand the teeth invisible braces price based on your individual needs.',
@@ -1919,6 +2003,7 @@ export const serviceContent = {
           'Avoid sticky and hard foods',
           'Attend scheduled adjustment appointments',
           'Wear retainers as instructed after treatment',
+          'Maintain regular dental check-ups',
         ],
       },
     ],
@@ -1943,6 +2028,13 @@ export const serviceContent = {
         name: 'Rahul S.',
         location: 'Coimbatore',
         initials: 'RS',
+      },
+      {
+        quote:
+          'My experience with invisible braces at AVM Smiles was excellent. They were comfortable, and the treatment process was very smooth.',
+        name: 'Meera L.',
+        location: 'Chennai',
+        initials: 'ML',
       },
     ],
     faqs: [
@@ -2022,6 +2114,7 @@ export const serviceContent = {
           'Worn-down teeth',
           'Mildly misaligned teeth',
           'Irregular smile aesthetics',
+          'Teeth with minor enamel defects',
         ],
         outro:
           'Many patients choose veneer treatment for teeth in Chennai to get a brighter, more symmetrical and confident smile without extensive orthodontic treatment.',
@@ -2124,6 +2217,7 @@ export const serviceContent = {
           'Minor crowding',
           'Irregularly shaped teeth',
           'Smile asymmetry',
+          'Worn-down teeth',
         ],
         outro:
           'Patients seeking dental veneer treatment in Chennai often choose veneers for comprehensive cosmetic improvements with minimal treatment time.',
@@ -2139,6 +2233,7 @@ export const serviceContent = {
           'Complexity of the smile design',
           'Individual cosmetic goals',
           'Additional dental treatments, if necessary',
+          'Experience of the cosmetic dentist',
         ],
         outro:
           'At AVM Smiles, we provide transparent consultations and customized treatment plans to help you understand the veneer treatment cost based on your specific needs.',
@@ -2228,6 +2323,13 @@ export const serviceContent = {
         name: 'Priya M.',
         location: 'Chennai',
         initials: 'PM',
+      },
+      {
+        quote:
+          'From consultation to final placement, the entire veneer process was smooth and comfortable. The team paid attention to every detail, and I love my new smile.',
+        name: 'Ananya V.',
+        location: 'Chennai',
+        initials: 'AV',
       },
     ],
     faqs: [
@@ -2416,6 +2518,11 @@ export const serviceContent = {
             title: 'Enhanced Comfort',
             body: 'No slipping or movement associated with dentures.',
           },
+          {
+            icon: Activity,
+            title: 'Improved Chewing & Speech',
+            body: 'Restores full chewing efficiency and helps improve speech clarity.',
+          },
         ],
       },
       {
@@ -2465,6 +2572,7 @@ export const serviceContent = {
           'Maintain implant stability',
           'Prevent implant-related infections',
           'Extend implant lifespan',
+          'Support long-term oral hygiene',
         ],
         outro:
           'Regular dental check-ups and professional dental implants cleaning in Chennai play a significant role in successful implant results.',
@@ -2495,6 +2603,7 @@ export const serviceContent = {
           'Schedule professional implant cleanings',
           'Avoid tobacco products',
           'Follow your dentist’s instructions',
+          'Maintain a balanced diet',
         ],
       },
     ],
@@ -2519,6 +2628,13 @@ export const serviceContent = {
         name: 'Ramesh V.',
         location: 'Chennai',
         initials: 'RV',
+      },
+      {
+        quote:
+          'From surgery to follow-up care, the entire implant journey was smooth and well-managed. I can now eat comfortably without any issues.',
+        name: 'Meena L.',
+        location: 'Chennai',
+        initials: 'ML',
       },
     ],
     faqs: [
