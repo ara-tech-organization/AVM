@@ -69,27 +69,31 @@ export default function BeforeAfter() {
             </AnimatePresence>
           </div>
 
-          {/* Case selector */}
-          <p className="mt-8 text-xs font-semibold uppercase tracking-[0.18em] text-muted">
-            Browse cases
-          </p>
-          <div className="mt-3 flex gap-3">
-            {transformations.map((t, i) => (
-              <button
-                key={t.id}
-                type="button"
-                onClick={() => setActive(i)}
-                aria-label={`View ${t.title}`}
-                aria-pressed={i === active}
-                className={`relative h-16 w-20 shrink-0 overflow-hidden rounded-xl ring-2 ring-offset-2 transition-all duration-300 ${
-                  i === active ? 'ring-brand-500' : 'ring-transparent hover:ring-brand-200'
-                }`}
-              >
-                <SmartImage src={t.after} alt={t.title} className="absolute inset-0 h-full w-full" />
-                {i !== active && <span className="absolute inset-0 bg-white/40" />}
-              </button>
-            ))}
-          </div>
+          {/* Case selector (only when there are multiple cases) */}
+          {transformations.length > 1 && (
+            <>
+              <p className="mt-8 text-xs font-semibold uppercase tracking-[0.18em] text-muted">
+                Browse cases
+              </p>
+              <div className="mt-3 flex gap-3">
+                {transformations.map((t, i) => (
+                  <button
+                    key={t.id}
+                    type="button"
+                    onClick={() => setActive(i)}
+                    aria-label={`View ${t.title}`}
+                    aria-pressed={i === active}
+                    className={`relative h-16 w-20 shrink-0 overflow-hidden rounded-xl ring-2 ring-offset-2 transition-all duration-300 ${
+                      i === active ? 'ring-brand-500' : 'ring-transparent hover:ring-brand-200'
+                    }`}
+                  >
+                    <SmartImage src={t.after} alt={t.title} className="absolute inset-0 h-full w-full" />
+                    {i !== active && <span className="absolute inset-0 bg-white/40" />}
+                  </button>
+                ))}
+              </div>
+            </>
+          )}
 
           <div className="mt-9 flex items-center gap-4">
             <Button to="/gallery" variant="primary" size="lg" icon={ArrowRight}>
