@@ -59,7 +59,7 @@ export default function Hero() {
               className="mt-6 text-balance text-4xl font-extrabold leading-[1.05] text-white sm:text-5xl lg:text-[3.6rem]"
             >
               AVM Smiles — The{' '}
-              <span className="relative whitespace-nowrap">
+              <span className="relative sm:whitespace-nowrap">
                 <span className="font-display font-medium italic text-accent-400">
                   Best Dental Clinic
                 </span>

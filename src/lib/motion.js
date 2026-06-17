@@ -51,7 +51,13 @@ export const staggerItem = {
   show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: EASE } },
 }
 
-/** Default viewport config used across scroll-reveal sections. */
-export const viewportOnce = { once: true, amount: 0.25, margin: '0px 0px -10% 0px' }
+/**
+ * Default viewport config used across scroll-reveal sections.
+ * `amount: 'some'` triggers as soon as any part of the element enters the
+ * viewport. A fixed (not percentage) bottom margin keeps the reveal reliable
+ * on mobile, where stacked sections can be several screens tall — a fractional
+ * threshold like 0.25 can never be met there, leaving the section invisible.
+ */
+export const viewportOnce = { once: true, amount: 'some', margin: '0px 0px -80px 0px' }
 
 export const EASE_PREMIUM = EASE
