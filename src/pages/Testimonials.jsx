@@ -13,8 +13,8 @@ export default function Testimonials() {
   return (
     <>
       <Seo
-        title="Patient Testimonials | AVM Smiles Puducherry"
-        description="Read and watch real patient reviews of AVM Smiles — one of the best dental clinics in Puducherry for implants, aligners, root canals and smile makeovers."
+        title="Patient Testimonials | AVM Smiles Pondicherry"
+        description="Read and watch real patient reviews of AVM Smiles — one of the best dental clinics in Pondicherry for implants, aligners, root canals and smile makeovers."
         path="/testimonials"
       />
       <PageHeader

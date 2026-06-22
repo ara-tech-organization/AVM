@@ -43,9 +43,9 @@ export default function FinalCta() {
               Book Your Dental Consultation Today
             </h2>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-white/75 sm:text-lg">
-              If you are searching for the best dental clinic in Puducherry for advanced
+              If you are searching for the best dental clinic in Pondicherry for advanced
               dental treatments and personalized care, AVM Smiles is dedicated to
-              providing the best dental care in Puducherry.
+              providing the best dental care in Pondicherry.
             </p>
 
             <ul className="mt-8 space-y-3.5">

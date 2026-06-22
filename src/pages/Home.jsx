@@ -14,14 +14,14 @@ import {
 } from '../sections'
 
 const KEYWORDS =
-  'best dental clinic in puducherry, dental care services in puducherry, dental clinic services in puducherry, dental health care in puducherry, dental health services in puducherry, dental hygiene clinic in puducherry, teeth whitening clinic in puducherry, teeth whitening dentist in puducherry, the dental clinic in puducherry, the tooth clinic in puducherry, top dental care in puducherry'
+  'best dental clinic in pondicherry, dental care services in pondicherry, dental clinic services in pondicherry, dental health care in pondicherry, dental health services in pondicherry, dental hygiene clinic in pondicherry, teeth whitening clinic in pondicherry, teeth whitening dentist in pondicherry, the dental clinic in pondicherry, the tooth clinic in pondicherry, top dental care in pondicherry'
 
 export default function Home() {
   return (
     <>
       <Seo
-        title="Best Dental Clinic in Puducherry | AVM Smiles"
-        description="AVM Smiles is the best dental clinic in Puducherry, offering advanced dental treatments, expert dentists, and complete dental health care for all ages."
+        title="Best Dental Clinic in Pondicherry | AVM Smiles"
+        description="AVM Smiles is the best dental clinic in Pondicherry, offering advanced dental treatments, expert dentists, and complete dental health care for all ages."
         keywords={KEYWORDS}
         path="/"
       />

@@ -54,7 +54,7 @@ export default function Footer() {
             <Logo tone="light" />
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-white/65">
               AVM Smiles is dedicated to providing the best dental care in
-              Puducherry — advanced treatments, expert dentists and personalized
+              Pondicherry — advanced treatments, expert dentists and personalized
               care for every smile.
             </p>
             <div className="mt-7 flex items-center gap-3">

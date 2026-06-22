@@ -15,7 +15,7 @@ export default function About() {
           className="lg:col-span-7"
           eyebrow="About AVM Smiles"
           title="Your Trusted Partner for Complete Dental Care"
-          intro="At AVM Smiles, we are focused on delivering the best dental clinic services in Puducherry with modern dental treatments, caring service, and excellent patient experiences."
+          intro="At AVM Smiles, we are focused on delivering the best dental clinic services in Pondicherry with modern dental treatments, caring service, and excellent patient experiences."
         />
         <div className="lg:col-span-5 lg:pb-2 lg:text-right">
           <Button to="/about-us" variant="outline" icon={ArrowRight}>

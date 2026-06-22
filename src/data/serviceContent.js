@@ -36,20 +36,20 @@
 export const serviceContent = {
   'tooth-extraction': {
     seo: {
-      title: 'Best Tooth Extraction in Puducherry | AVM Smiles',
+      title: 'Best Tooth Extraction in Pondicherry | AVM Smiles',
       description:
-        'Get the best tooth extraction in Puducherry at AVM Smiles. Safe, comfortable treatment by experienced dentists. Visit a trusted tooth extraction clinic near Puducherry.',
-      keywords: 'Tooth Extraction in Puducherry, Tooth Extraction near Puducherry',
+        'Get the best tooth extraction in Pondicherry at AVM Smiles. Safe, comfortable treatment by experienced dentists. Visit a trusted tooth extraction clinic near Pondicherry.',
+      keywords: 'Tooth Extraction in Pondicherry, Tooth Extraction near Pondicherry',
     },
     hero: {
-      h1: 'Tooth Extraction in Puducherry',
+      h1: 'Tooth Extraction in Pondicherry',
       lead: 'Safe, comfortable and precise tooth extraction by experienced dentists — for simple removals and complex wisdom teeth alike.',
     },
     intro: {
       heading: 'Expert Tooth Extraction Services at AVM Smiles',
       paragraphs: [
-        'If you are suffering from severe tooth pain, infection or a damaged tooth, AVM Smiles offers safe and effective Tooth Extraction in Puducherry with modern technology and advanced dental techniques.',
-        'Our experienced and friendly dentists provide personalized care to make your treatment more comfortable. From simple extractions to complex wisdom tooth removal, our clinic is the reliable option for Tooth Extraction near Puducherry.',
+        'If you are suffering from severe tooth pain, infection or a damaged tooth, AVM Smiles offers safe and effective Tooth Extraction in Pondicherry with modern technology and advanced dental techniques.',
+        'Our experienced and friendly dentists provide personalized care to make your treatment more comfortable. From simple extractions to complex wisdom tooth removal, our clinic is the reliable option for Tooth Extraction near Pondicherry.',
       ],
     },
     facts: [
@@ -62,8 +62,8 @@ export const serviceContent = {
         type: 'text',
         heading: 'What is Tooth Extraction?',
         paragraphs: [
-          'Tooth extraction is the removal of a tooth from its bony socket. At AVM Smiles, we perform Tooth Extraction in Puducherry with precision and care to relieve pain, prevent infections and safeguard your overall oral health.',
-          'Our comprehensive evaluation and customized treatment approach helps patients looking for reliable Tooth Extraction near Puducherry feel informed and at ease throughout the process.',
+          'Tooth extraction is the removal of a tooth from its bony socket. At AVM Smiles, we perform Tooth Extraction in Pondicherry with precision and care to relieve pain, prevent infections and safeguard your overall oral health.',
+          'Our comprehensive evaluation and customized treatment approach helps patients looking for reliable Tooth Extraction near Pondicherry feel informed and at ease throughout the process.',
         ],
       },
       {
@@ -98,7 +98,7 @@ export const serviceContent = {
           },
         ],
         outro:
-          'Our specialists perform both procedures safely and efficiently, making AVM Smiles a preferred destination for Tooth Extraction near Puducherry.',
+          'Our specialists perform both procedures safely and efficiently, making AVM Smiles a preferred destination for Tooth Extraction near Pondicherry.',
       },
       {
         type: 'text',
@@ -196,7 +196,7 @@ export const serviceContent = {
         quote:
           'I had a lot of pain in my teeth and got my extraction done at AVM Smiles. The procedure was painless and recovery was very smooth.',
         name: 'Priya S.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'PS',
       },
       {
@@ -208,7 +208,7 @@ export const serviceContent = {
       },
       {
         quote:
-          'I visited for my wisdom tooth removal and I highly recommend AVM Smiles for anyone looking for Tooth Extraction near Puducherry.',
+          'I visited for my wisdom tooth removal and I highly recommend AVM Smiles for anyone looking for Tooth Extraction near Pondicherry.',
         name: 'Mohammed R.',
         location: 'Coimbatore',
         initials: 'MR',
@@ -217,7 +217,7 @@ export const serviceContent = {
         quote:
           'The team at AVM Smiles was extremely caring and professional throughout my tooth extraction treatment. The procedure was quick and comfortable, and the post-treatment support helped me recover without any complications.',
         name: 'Lakshmi V.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'LV',
       },
     ],
@@ -243,33 +243,33 @@ export const serviceContent = {
         a: 'Avoid smoking, alcohol, strenuous exercise and very hot foods for a few days after the procedure. These precautions reduce the risk of complications and support proper healing.',
       },
       {
-        q: 'Does AVM Smiles provide wisdom tooth extraction in Puducherry?',
-        a: 'Yes. We offer expert wisdom tooth extraction in Puducherry for both simple and surgical procedures, and our experienced dental team ensures safe treatment and fast recovery.',
+        q: 'Does AVM Smiles provide wisdom tooth extraction in Pondicherry?',
+        a: 'Yes. We offer expert wisdom tooth extraction in Pondicherry for both simple and surgical procedures, and our experienced dental team ensures safe treatment and fast recovery.',
       },
     ],
     closing: {
       heading: 'Book Your Appointment Today',
-      body: 'If you are searching for Tooth Extraction near Puducherry online, AVM Smiles provides reliable dental services with a patient-centric approach. Call to schedule your appointment today and enjoy quality dentistry from experienced dentists — with modern techniques and long-term solutions for your oral health.',
+      body: 'If you are searching for Tooth Extraction near Pondicherry online, AVM Smiles provides reliable dental services with a patient-centric approach. Call to schedule your appointment today and enjoy quality dentistry from experienced dentists — with modern techniques and long-term solutions for your oral health.',
     },
   },
 
   'dental-crowns-and-bridges': {
     seo: {
-      title: 'Best Dental Bridges and Crowns in Puducherry | AVM Smiles',
+      title: 'Best Dental Bridges and Crowns in Pondicherry | AVM Smiles',
       description:
-        'AVM Smiles offers high-quality Dental Bridges & Crowns in Puducherry to replace damaged or missing teeth with durable, natural-looking restorations.',
+        'AVM Smiles offers high-quality Dental Bridges & Crowns in Pondicherry to replace damaged or missing teeth with durable, natural-looking restorations.',
       keywords:
-        'Dental Bridges & Crowns in Puducherry, Dental Bridges & Crowns near Puducherry',
+        'Dental Bridges & Crowns in Pondicherry, Dental Bridges & Crowns near Pondicherry',
     },
     hero: {
-      h1: 'Dental Bridges & Crowns in Puducherry',
+      h1: 'Dental Bridges & Crowns in Pondicherry',
       lead: 'Durable, natural-looking crowns and bridges to restore damaged or missing teeth — crafted with premium materials and modern techniques.',
     },
     intro: {
       heading: 'Restore Your Smile with Expert Dental Bridges & Crowns at AVM Smiles',
       paragraphs: [
-        'AVM Smiles offers advanced Dental Bridges & Crowns in Puducherry for damaged, decayed or missing teeth — restoring your smile, improving chewing function and supporting overall oral health. Our experienced dentists use the best materials and modern techniques for results that last and look natural.',
-        'We also provide trusted care for patients searching for Dental Bridges & Crowns near Puducherry, with personalized treatment and comfortable dental experiences.',
+        'AVM Smiles offers advanced Dental Bridges & Crowns in Pondicherry for damaged, decayed or missing teeth — restoring your smile, improving chewing function and supporting overall oral health. Our experienced dentists use the best materials and modern techniques for results that last and look natural.',
+        'We also provide trusted care for patients searching for Dental Bridges & Crowns near Pondicherry, with personalized treatment and comfortable dental experiences.',
       ],
     },
     facts: [
@@ -291,7 +291,7 @@ export const serviceContent = {
         heading: 'What are Dental Bridges?',
         paragraphs: [
           'A dental bridge is a prosthetic device used to replace one or more missing teeth by affixing artificial teeth to adjacent natural teeth or implants. Bridges help restore your smile, facial structure and ability to chew.',
-          'AVM Smiles’ Dental Bridges & Crowns in Puducherry give patients durable, strong and natural-looking restorations.',
+          'AVM Smiles’ Dental Bridges & Crowns in Pondicherry give patients durable, strong and natural-looking restorations.',
         ],
       },
       {
@@ -465,19 +465,19 @@ export const serviceContent = {
         quote:
           'I had my dental crown done at AVM Smiles. It looks totally natural and feels really comfortable.',
         name: 'Suresh K.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'SK',
       },
       {
         quote:
-          'Great service! My dental bridge treatment went well and was pain-free. Excellent Dental Bridges & Crowns in Puducherry.',
+          'Great service! My dental bridge treatment went well and was pain-free. Excellent Dental Bridges & Crowns in Pondicherry.',
         name: 'Anita R.',
         location: 'Avinashi Road',
         initials: 'AR',
       },
       {
         quote:
-          'Best clinic for a smile makeover — I looked up Dental Bridges & Crowns near Puducherry and found perfect care at AVM Smiles.',
+          'Best clinic for a smile makeover — I looked up Dental Bridges & Crowns near Pondicherry and found perfect care at AVM Smiles.',
         name: 'Mohammed F.',
         location: 'Coimbatore',
         initials: 'MF',
@@ -486,7 +486,7 @@ export const serviceContent = {
         quote:
           'I got my crown and bridge treatment done at AVM Smiles and I’m extremely satisfied with the results. The fit is perfect, the appearance is natural, and the entire experience was smooth and comfortable from start to finish.',
         name: 'Deepa M.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'DM',
       },
     ],
@@ -518,26 +518,26 @@ export const serviceContent = {
     ],
     closing: {
       heading: 'Book Your Consultation Today',
-      body: 'Are you searching for reliable Dental Bridges & Crowns in Puducherry? AVM Smiles offers advanced restorative dental treatments for long-lasting results, serving patients in and around Puducherry with the best care and latest technology. We are a trusted dental care solution to restore your smile, confidence and oral health.',
+      body: 'Are you searching for reliable Dental Bridges & Crowns in Pondicherry? AVM Smiles offers advanced restorative dental treatments for long-lasting results, serving patients in and around Pondicherry with the best care and latest technology. We are a trusted dental care solution to restore your smile, confidence and oral health.',
     },
   },
 
   'dental-dentures': {
     seo: {
-      title: 'Best Dental Dentures in Puducherry | AVM Smiles',
+      title: 'Best Dental Dentures in Pondicherry | AVM Smiles',
       description:
-        'Get comfortable, natural-looking Dental Dentures in Puducherry at AVM Smiles. Restore your smile, confidence, and chewing ability with expert care.',
-      keywords: 'Dental Dentures in Puducherry, Dental Dentures near Puducherry',
+        'Get comfortable, natural-looking Dental Dentures in Pondicherry at AVM Smiles. Restore your smile, confidence, and chewing ability with expert care.',
+      keywords: 'Dental Dentures in Pondicherry, Dental Dentures near Pondicherry',
     },
     hero: {
-      h1: 'Dental Dentures in Puducherry',
+      h1: 'Dental Dentures in Pondicherry',
       lead: 'Custom, natural-looking dentures that restore your smile, confidence and ability to chew and speak with ease.',
     },
     intro: {
       heading: 'Restore Your Smile with Comfortable Dental Dentures at AVM Smiles',
       paragraphs: [
-        'If you have lost multiple teeth and are facing difficulty chewing and speaking, AVM Smiles offers high-quality Dental Dentures in Puducherry to restore function, aesthetics and confidence. We build custom dentures that fit well and look natural, helping patients get their full, healthy smile back.',
-        'We also provide advanced care for patients looking for Dental Dentures near Puducherry, offering reliable and affordable tooth-replacement solutions.',
+        'If you have lost multiple teeth and are facing difficulty chewing and speaking, AVM Smiles offers high-quality Dental Dentures in Pondicherry to restore function, aesthetics and confidence. We build custom dentures that fit well and look natural, helping patients get their full, healthy smile back.',
+        'We also provide advanced care for patients looking for Dental Dentures near Pondicherry, offering reliable and affordable tooth-replacement solutions.',
       ],
     },
     facts: [
@@ -592,7 +592,7 @@ export const serviceContent = {
           'Poor oral function due to missing teeth',
         ],
         outro:
-          'At AVM Smiles, patients looking for Dental Dentures in Puducherry undergo a personalized evaluation to determine the best treatment.',
+          'At AVM Smiles, patients looking for Dental Dentures in Pondicherry undergo a personalized evaluation to determine the best treatment.',
       },
       {
         type: 'steps',
@@ -698,9 +698,9 @@ export const serviceContent = {
     testimonials: [
       {
         quote:
-          'AVM Smiles created my full dentures. They fit like a glove and feel very natural — a must-visit for Dental Dentures in Puducherry.',
+          'AVM Smiles created my full dentures. They fit like a glove and feel very natural — a must-visit for Dental Dentures in Pondicherry.',
         name: 'Lakshmi P.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'LP',
       },
       {
@@ -721,7 +721,7 @@ export const serviceContent = {
         quote:
           'I got my dentures done at AVM Smiles and the experience was excellent. The fit is very comfortable, and I can speak and eat much better now.',
         name: 'Meena R.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'MR',
       },
     ],
@@ -753,27 +753,27 @@ export const serviceContent = {
     ],
     closing: {
       heading: 'Book Your Denture Consultation Today',
-      body: 'If you are looking for reliable Dental Dentures in Puducherry, AVM Smiles offers customized, comfortable tooth-replacement solutions. We also cater to patients looking for Dental Dentures near Puducherry with affordable, quality care — expert denture solutions to help you reclaim your smile, confidence and oral health.',
+      body: 'If you are looking for reliable Dental Dentures in Pondicherry, AVM Smiles offers customized, comfortable tooth-replacement solutions. We also cater to patients looking for Dental Dentures near Pondicherry with affordable, quality care — expert denture solutions to help you reclaim your smile, confidence and oral health.',
     },
   },
 
   'root-canal-treatment': {
     seo: {
-      title: 'Best Root Canal Treatment in Puducherry | AVM Smiles',
+      title: 'Best Root Canal Treatment in Pondicherry | AVM Smiles',
       description:
-        'AVM Smiles offers painless Root Canal Treatment in Puducherry using modern technology to treat infection and preserve your natural teeth.',
+        'AVM Smiles offers painless Root Canal Treatment in Pondicherry using modern technology to treat infection and preserve your natural teeth.',
       keywords:
-        'Root Canal Treatment in Puducherry, Root Canal Treatment near Puducherry',
+        'Root Canal Treatment in Pondicherry, Root Canal Treatment near Pondicherry',
     },
     hero: {
-      h1: 'Root Canal Treatment in Puducherry',
+      h1: 'Root Canal Treatment in Pondicherry',
       lead: 'Painless, single-sitting root canal therapy that eliminates infection and saves your natural tooth — with advanced endodontic technology.',
     },
     intro: {
       heading: 'Painless & Advanced Root Canal Treatment at AVM Smiles',
       paragraphs: [
-        'An infected tooth needs prompt attention and can cause severe pain or sensitivity. At AVM Smiles, we offer the best Root Canal Treatment in Puducherry — aiming to save your natural tooth, eliminate infection and restore full dental function with minimal discomfort.',
-        'Our experienced endodontic specialists use modern techniques and precision tools for safe, effective and comfortable treatment, making us a trusted choice for patients looking for Root Canal Treatment near Puducherry.',
+        'An infected tooth needs prompt attention and can cause severe pain or sensitivity. At AVM Smiles, we offer the best Root Canal Treatment in Pondicherry — aiming to save your natural tooth, eliminate infection and restore full dental function with minimal discomfort.',
+        'Our experienced endodontic specialists use modern techniques and precision tools for safe, effective and comfortable treatment, making us a trusted choice for patients looking for Root Canal Treatment near Pondicherry.',
       ],
     },
     facts: [
@@ -787,7 +787,7 @@ export const serviceContent = {
         heading: 'What is Root Canal Treatment?',
         paragraphs: [
           'Root canal treatment (RCT) is a dental procedure used to treat infection in the pulp of the tooth. Instead of removing the tooth, the pulp is cleaned, disinfected and sealed — keeping your natural tooth structure intact.',
-          'AVM Smiles offers painless, precise Root Canal Treatment in Puducherry with advanced technology for long-lasting results.',
+          'AVM Smiles offers painless, precise Root Canal Treatment in Pondicherry with advanced technology for long-lasting results.',
         ],
       },
       {
@@ -936,19 +936,19 @@ export const serviceContent = {
         quote:
           'I had a severe toothache and got my RCT done at AVM Smiles. The treatment was totally pain-free and very professional.',
         name: 'Arun S.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'AS',
       },
       {
         quote:
-          'The best root canal clinic in Puducherry — the doctors explained everything very well and made me very comfortable.',
+          'The best root canal clinic in Pondicherry — the doctors explained everything very well and made me very comfortable.',
         name: 'Priya M.',
         location: 'Avinashi Road',
         initials: 'PM',
       },
       {
         quote:
-          'I searched for Root Canal Treatment near Puducherry and found AVM Smiles — a very smooth experience and excellent care.',
+          'I searched for Root Canal Treatment near Pondicherry and found AVM Smiles — a very smooth experience and excellent care.',
         name: 'Mohammed R.',
         location: 'Coimbatore',
         initials: 'MR',
@@ -957,7 +957,7 @@ export const serviceContent = {
         quote:
           'I underwent root canal treatment at AVM Smiles and the experience was excellent. The procedure was completely comfortable and the pain was relieved immediately.',
         name: 'Divya K.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'DK',
       },
     ],
@@ -989,26 +989,26 @@ export const serviceContent = {
     ],
     closing: {
       heading: 'Book Your Appointment Today',
-      body: 'If you’re suffering from tooth pain or infection, AVM Smiles is the place for expert Root Canal Treatment in Puducherry — with advanced technology and painless procedures. We are also a first choice for Root Canal Treatment near Puducherry, offering expert RCT care to restore your oral health and save your natural smile.',
+      body: 'If you’re suffering from tooth pain or infection, AVM Smiles is the place for expert Root Canal Treatment in Pondicherry — with advanced technology and painless procedures. We are also a first choice for Root Canal Treatment near Pondicherry, offering expert RCT care to restore your oral health and save your natural smile.',
     },
   },
 
   'best-teeth-whitening-treatment': {
     seo: {
-      title: 'Best Teeth Whitening Treatment in Puducherry | AVM Smiles',
+      title: 'Best Teeth Whitening Treatment in Pondicherry | AVM Smiles',
       description:
-        'Transform your smile with the Best Teeth Whitening Treatment in Puducherry at AVM Smiles. Professional care for noticeably whiter teeth.',
+        'Transform your smile with the Best Teeth Whitening Treatment in Pondicherry at AVM Smiles. Professional care for noticeably whiter teeth.',
       keywords:
         'best teeth whitening treatment, dental whitening treatment, professional tooth whitening treatment, teeth whitening treatment cost, teeth whitening treatment dentist',
     },
     hero: {
-      h1: 'Teeth Whitening Treatment in Puducherry',
+      h1: 'Teeth Whitening Treatment in Pondicherry',
       lead: 'Safe, clinically proven whitening that removes deep stains for a noticeably brighter smile — often in a single session.',
     },
     intro: {
       heading: 'Brighten Your Smile with Professional Teeth Whitening at AVM Smiles',
       paragraphs: [
-        'A bright, white smile can boost your confidence instantly and enhance your appearance. AVM Smiles offers the best teeth whitening treatment in Puducherry with safe, advanced and clinically proven techniques. Our dental whitening treatment removes deep stains from coffee, tea, smoking and ageing for a noticeably brighter smile in a short time.',
+        'A bright, white smile can boost your confidence instantly and enhance your appearance. AVM Smiles offers the best teeth whitening treatment in Pondicherry with safe, advanced and clinically proven techniques. Our dental whitening treatment removes deep stains from coffee, tea, smoking and ageing for a noticeably brighter smile in a short time.',
         'We offer professional tooth whitening customized to your smile goals — long-lasting results with minimal sensitivity.',
       ],
     },
@@ -1023,7 +1023,7 @@ export const serviceContent = {
         heading: 'What is Teeth Whitening?',
         paragraphs: [
           'Teeth whitening is a cosmetic dental procedure that lightens the natural colour of your teeth without removing any tooth surface. It eliminates stains and discolouration to achieve a brighter, healthier look.',
-          'At AVM Smiles, our dentist for teeth whitening treatment in Puducherry ensures safe application of whitening agents for the best results and an even tone.',
+          'At AVM Smiles, our dentist for teeth whitening treatment in Pondicherry ensures safe application of whitening agents for the best results and an even tone.',
         ],
       },
       {
@@ -1181,9 +1181,9 @@ export const serviceContent = {
     testimonials: [
       {
         quote:
-          'AVM Smiles gave me the best teeth whitening treatment in Puducherry. I now smile more brightly and with more confidence.',
+          'AVM Smiles gave me the best teeth whitening treatment in Pondicherry. I now smile more brightly and with more confidence.',
         name: 'Karthik S.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'KS',
       },
       {
@@ -1204,7 +1204,7 @@ export const serviceContent = {
         quote:
           'I’m really happy with my teeth whitening treatment at AVM Smiles. The results were quick and safe, and my smile looks much brighter and more natural.',
         name: 'Meena L.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'ML',
       },
     ],
@@ -1231,31 +1231,31 @@ export const serviceContent = {
       },
       {
         q: 'What is the best teeth whitening treatment?',
-        a: 'Professional in-clinic whitening is considered one of the most effective options for fast results, and is often recommended as the best teeth whitening treatment near Puducherry for safe, visible whitening.',
+        a: 'Professional in-clinic whitening is considered one of the most effective options for fast results, and is often recommended as the best teeth whitening treatment near Pondicherry for safe, visible whitening.',
       },
     ],
     closing: {
       heading: 'Book Your Teeth Whitening Appointment Today',
-      body: 'If you’re looking for a brighter, more confident smile, AVM Smiles provides advanced dental whitening treatment in Puducherry with safe, effective results. Our expert teeth whitening dentist ensures a comfortable experience that lasts and shines — for trusted cosmetic dentistry, get the smile you’ve always wanted today at AVM Smiles.',
+      body: 'If you’re looking for a brighter, more confident smile, AVM Smiles provides advanced dental whitening treatment in Pondicherry with safe, effective results. Our expert teeth whitening dentist ensures a comfortable experience that lasts and shines — for trusted cosmetic dentistry, get the smile you’ve always wanted today at AVM Smiles.',
     },
   },
 
   'dental-scaling-polishing': {
     seo: {
-      title: 'Best Dental Scaling and Polishing in Puducherry | AVM Smiles',
+      title: 'Best Dental Scaling and Polishing in Pondicherry | AVM Smiles',
       description:
-        'Get the Best Dental Scaling and Polishing in Puducherry at AVM Smiles. Remove plaque, stains, and maintain a healthy, sparkling smile.',
+        'Get the Best Dental Scaling and Polishing in Pondicherry at AVM Smiles. Remove plaque, stains, and maintain a healthy, sparkling smile.',
       keywords:
         'dental scaling & polishing teeth, polishing after scaling, polishing teeth price, scaling and polishing of teeth cost, teeth cleaning and polishing cost',
     },
     hero: {
-      h1: 'Scaling & Polishing in Puducherry',
+      h1: 'Scaling & Polishing in Pondicherry',
       lead: 'Gentle, ultrasonic scaling and polishing that removes plaque, tartar and stains for healthier gums and a brighter smile.',
     },
     intro: {
       heading: 'Professional Dental Scaling & Polishing Teeth Treatment at AVM Smiles',
       paragraphs: [
-        'Healthy gums and clean teeth are essential for excellent oral health. At AVM Smiles, we offer modern dental scaling & polishing teeth treatments in Puducherry that efficiently eliminate plaque, tartar and stains — helping you get a cleaner, healthier and brighter smile.',
+        'Healthy gums and clean teeth are essential for excellent oral health. At AVM Smiles, we offer modern dental scaling & polishing teeth treatments in Pondicherry that efficiently eliminate plaque, tartar and stains — helping you get a cleaner, healthier and brighter smile.',
         'Our experienced dental team uses advanced ultrasonic scaling technology and gentle polishing techniques to improve your oral hygiene, prevent gum disease and enhance the look of your teeth.',
       ],
     },
@@ -1296,7 +1296,7 @@ export const serviceContent = {
           'Bleeding gums',
         ],
         outro:
-          'Regular dental scaling & polishing treatments in Puducherry help prevent these problems and maintain long-term dental wellness.',
+          'Regular dental scaling & polishing treatments in Pondicherry help prevent these problems and maintain long-term dental wellness.',
       },
       {
         type: 'list',
@@ -1447,7 +1447,7 @@ export const serviceContent = {
         quote:
           'I was amazed at the difference after my cleaning at AVM Smiles. My teeth feel cleaner and my gums are much healthier now.',
         name: 'Lakshmi R.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'LR',
       },
       {
@@ -1461,14 +1461,14 @@ export const serviceContent = {
         quote:
           'I was concerned about the cost of scaling and polishing, but AVM Smiles offers affordable treatment with excellent care.',
         name: 'Priya S.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'PS',
       },
       {
         quote:
           'I had scaling and polishing done at AVM Smiles and the experience was excellent. The procedure was gentle and my teeth feel incredibly fresh and smooth.',
         name: 'Mohammed A.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'MA',
       },
     ],
@@ -1506,21 +1506,21 @@ export const serviceContent = {
 
   'invisible-aligners': {
     seo: {
-      title: 'Best Invisible Dental Aligners in Puducherry | AVM Smiles',
+      title: 'Best Invisible Dental Aligners in Pondicherry | AVM Smiles',
       description:
-        'Choose AVM Smiles for the Best Invisible Dental Aligners in Puducherry. Clear aligner solutions designed for lasting smile transformations.',
+        'Choose AVM Smiles for the Best Invisible Dental Aligners in Pondicherry. Clear aligner solutions designed for lasting smile transformations.',
       keywords:
-        'invisible dental aligners in puducherry, teeth clear aligners price, teeth invisible aligners in puducherry, invisible aligners for teeth cost',
+        'invisible dental aligners in pondicherry, teeth clear aligners price, teeth invisible aligners in pondicherry, invisible aligners for teeth cost',
     },
     hero: {
-      h1: 'Invisible Aligners in Puducherry',
+      h1: 'Invisible Aligners in Pondicherry',
       lead: 'Clear, removable aligners that straighten teeth discreetly and comfortably — modern orthodontics that fits your lifestyle.',
     },
     intro: {
       heading: 'Achieve a Perfect Smile with Invisible Aligners at AVM Smiles',
       paragraphs: [
-        'Straighten your teeth invisibly and comfortably with modern invisible dental aligners in Puducherry at AVM Smiles. Unlike traditional metal braces, invisible aligners are clear, removable and custom-made to gradually move your teeth into the desired position without affecting your appearance.',
-        'Whether you have crowded teeth, gaps or bite problems, our customized aligner solutions offer modern orthodontic treatment that fits flawlessly into your lifestyle. If you’re looking for invisible aligners for teeth in Puducherry, AVM Smiles delivers expert care with advanced treatment planning and reliable results.',
+        'Straighten your teeth invisibly and comfortably with modern invisible dental aligners in Pondicherry at AVM Smiles. Unlike traditional metal braces, invisible aligners are clear, removable and custom-made to gradually move your teeth into the desired position without affecting your appearance.',
+        'Whether you have crowded teeth, gaps or bite problems, our customized aligner solutions offer modern orthodontic treatment that fits flawlessly into your lifestyle. If you’re looking for invisible aligners for teeth in Pondicherry, AVM Smiles delivers expert care with advanced treatment planning and reliable results.',
       ],
     },
     facts: [
@@ -1566,7 +1566,7 @@ export const serviceContent = {
           'People with spacing or crowding issues',
         ],
         outro:
-          'Patients looking for teeth invisible aligners in Puducherry prefer aligners for their comfort and convenience.',
+          'Patients looking for teeth invisible aligners in Pondicherry prefer aligners for their comfort and convenience.',
       },
       {
         type: 'steps',
@@ -1702,9 +1702,9 @@ export const serviceContent = {
     testimonials: [
       {
         quote:
-          'I was searching for invisible dental aligners in Puducherry and AVM Smiles was more than I expected. The process was effortless and my smile has been beautifully transformed.',
+          'I was searching for invisible dental aligners in Pondicherry and AVM Smiles was more than I expected. The process was effortless and my smile has been beautifully transformed.',
         name: 'Harini R.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'HR',
       },
       {
@@ -1716,16 +1716,16 @@ export const serviceContent = {
       },
       {
         quote:
-          'Looking for a discreet alternative to braces, I chose teeth invisible aligners in Puducherry at AVM Smiles. My teeth are now perfectly straight and I couldn’t be happier.',
+          'Looking for a discreet alternative to braces, I chose teeth invisible aligners in Pondicherry at AVM Smiles. My teeth are now perfectly straight and I couldn’t be happier.',
         name: 'Priya M.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'PM',
       },
       {
         quote:
           'I chose AVM Smiles for invisible aligner treatment and the experience was excellent. The aligners were comfortable, easy to use, and the results started showing within a few weeks.',
         name: 'Mohammed R.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'MR',
       },
     ],
@@ -1757,27 +1757,27 @@ export const serviceContent = {
     ],
     closing: {
       heading: 'Book Your Invisible Aligner Consultation Today',
-      body: 'Transform your smile with modern invisible dental aligners in Puducherry at AVM Smiles. Our experienced orthodontist offers customized treatment plans, digital smile design and comfortable aligner solutions to help you achieve straighter teeth with confidence. If you’re thinking about invisible aligners for teeth in Puducherry, book a consultation with AVM Smiles today and discover a modern, discreet way to get your perfect smile.',
+      body: 'Transform your smile with modern invisible dental aligners in Pondicherry at AVM Smiles. Our experienced orthodontist offers customized treatment plans, digital smile design and comfortable aligner solutions to help you achieve straighter teeth with confidence. If you’re thinking about invisible aligners for teeth in Pondicherry, book a consultation with AVM Smiles today and discover a modern, discreet way to get your perfect smile.',
     },
   },
 
   'invisible-braces': {
     seo: {
-      title: 'Best Invisible Dental Teeth Braces in Puducherry | AVM Smiles',
+      title: 'Best Invisible Dental Teeth Braces in Pondicherry | AVM Smiles',
       description:
-        'AVM Smiles offers the Best Invisible Dental Teeth Braces in Puducherry for a comfortable, nearly invisible smile correction solution.',
+        'AVM Smiles offers the Best Invisible Dental Teeth Braces in Pondicherry for a comfortable, nearly invisible smile correction solution.',
       keywords:
-        'clear braces for teeth, invisible braces on teeth in puducherry, invisible dental teeth braces in puducherry, metal and clear braces, teeth invisible braces price',
+        'clear braces for teeth, invisible braces on teeth in pondicherry, invisible dental teeth braces in pondicherry, metal and clear braces, teeth invisible braces price',
     },
     hero: {
-      h1: 'Invisible Braces in Puducherry',
+      h1: 'Invisible Braces in Pondicherry',
       lead: 'Discreet clear and ceramic braces that correct crooked, crowded or misaligned teeth — a natural look throughout treatment.',
     },
     intro: {
       heading: 'Straighten Your Smile Discreetly with Invisible Braces at AVM Smiles',
       paragraphs: [
-        'A properly aligned smile can boost both confidence and oral health. At AVM Smiles, we provide advanced invisible braces on teeth in Puducherry that correct crooked, crowded or misaligned teeth while maintaining a natural appearance throughout treatment.',
-        'Unlike regular braces, invisible braces are designed to be far less noticeable — a preferred choice among teenagers, working professionals and adults who want discreet orthodontic treatment. If you’re looking for invisible dental braces in Puducherry, our experienced orthodontists offer customized treatment plans for an effective, predictable smile transformation.',
+        'A properly aligned smile can boost both confidence and oral health. At AVM Smiles, we provide advanced invisible braces on teeth in Pondicherry that correct crooked, crowded or misaligned teeth while maintaining a natural appearance throughout treatment.',
+        'Unlike regular braces, invisible braces are designed to be far less noticeable — a preferred choice among teenagers, working professionals and adults who want discreet orthodontic treatment. If you’re looking for invisible dental braces in Pondicherry, our experienced orthodontists offer customized treatment plans for an effective, predictable smile transformation.',
       ],
     },
     facts: [
@@ -2010,21 +2010,21 @@ export const serviceContent = {
     testimonials: [
       {
         quote:
-          'I was looking for invisible braces on teeth in Puducherry and AVM Smiles gave excellent care. My smile has changed so much and it looks awesome.',
+          'I was looking for invisible braces on teeth in Pondicherry and AVM Smiles gave excellent care. My smile has changed so much and it looks awesome.',
         name: 'Nandhini R.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'NR',
       },
       {
         quote:
           'My orthodontist guided me through the differences between metal and clear braces and helped me pick the best option. The treatment was easy and effective.',
         name: 'Arjun K.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'AK',
       },
       {
         quote:
-          'I wanted something discreet to straighten my teeth, so I opted for invisible dental teeth braces in Puducherry at AVM Smiles. The results were more than I imagined.',
+          'I wanted something discreet to straighten my teeth, so I opted for invisible dental teeth braces in Pondicherry at AVM Smiles. The results were more than I imagined.',
         name: 'Rahul S.',
         location: 'Coimbatore',
         initials: 'RS',
@@ -2033,7 +2033,7 @@ export const serviceContent = {
         quote:
           'My experience with invisible braces at AVM Smiles was excellent. They were comfortable, and the treatment process was very smooth.',
         name: 'Meera L.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'ML',
       },
     ],
@@ -2065,27 +2065,27 @@ export const serviceContent = {
     ],
     closing: {
       heading: 'Book Your Invisible Braces Consultation Today',
-      body: 'Get a straighter, healthier smile with advanced invisible braces for teeth in Puducherry at AVM Smiles. Our expert orthodontists use advanced techniques to design a treatment plan tailored to your needs — for results that are effective and pleasing to the eye. If you’re looking for invisible dental teeth braces in Puducherry, book your appointment now and enjoy modern orthodontic care at AVM Smiles.',
+      body: 'Get a straighter, healthier smile with advanced invisible braces for teeth in Pondicherry at AVM Smiles. Our expert orthodontists use advanced techniques to design a treatment plan tailored to your needs — for results that are effective and pleasing to the eye. If you’re looking for invisible dental teeth braces in Pondicherry, book your appointment now and enjoy modern orthodontic care at AVM Smiles.',
     },
   },
 
   'dental-veneer-treatment': {
     seo: {
-      title: 'Best Dental Veneer Treatment in Puducherry | AVM Smiles',
+      title: 'Best Dental Veneer Treatment in Pondicherry | AVM Smiles',
       description:
-        'Transform your smile with the Best Dental Veneer Treatment in Puducherry at AVM Smiles using high-quality, natural-looking veneers.',
+        'Transform your smile with the Best Dental Veneer Treatment in Pondicherry at AVM Smiles using high-quality, natural-looking veneers.',
       keywords:
         'dental veneer treatment, teeth veneer treatment, veneer treatment cost, veneer treatment for teeth',
     },
     hero: {
-      h1: 'Veneer Treatment in Puducherry',
+      h1: 'Veneer Treatment in Pondicherry',
       lead: 'Custom porcelain and composite veneers that correct stained, chipped or uneven teeth for a flawless, natural-looking smile.',
     },
     intro: {
       heading: 'Transform Your Smile with Premium Dental Veneers at AVM Smiles',
       paragraphs: [
-        'A beautiful smile can boost your confidence and enhance your overall appearance. AVM Smiles offers cosmetic dental veneer treatment in Puducherry to correct stained, chipped, uneven, worn or slightly misaligned teeth with a natural look.',
-        'Our cosmetic dentistry experts create custom smile makeovers with porcelain and composite veneers that blend beautifully with your natural teeth. Looking for teeth veneer treatment in Puducherry? Our customised approach ensures long-lasting aesthetics and an excellent smile transformation.',
+        'A beautiful smile can boost your confidence and enhance your overall appearance. AVM Smiles offers cosmetic dental veneer treatment in Pondicherry to correct stained, chipped, uneven, worn or slightly misaligned teeth with a natural look.',
+        'Our cosmetic dentistry experts create custom smile makeovers with porcelain and composite veneers that blend beautifully with your natural teeth. Looking for teeth veneer treatment in Pondicherry? Our customised approach ensures long-lasting aesthetics and an excellent smile transformation.',
       ],
     },
     facts: [
@@ -2117,7 +2117,7 @@ export const serviceContent = {
           'Teeth with minor enamel defects',
         ],
         outro:
-          'Many patients choose veneer treatment for teeth in Puducherry to get a brighter, more symmetrical and confident smile without extensive orthodontic treatment.',
+          'Many patients choose veneer treatment for teeth in Pondicherry to get a brighter, more symmetrical and confident smile without extensive orthodontic treatment.',
       },
       {
         type: 'cards',
@@ -2220,7 +2220,7 @@ export const serviceContent = {
           'Worn-down teeth',
         ],
         outro:
-          'Patients seeking dental veneer treatment in Puducherry often choose veneers for comprehensive cosmetic improvements with minimal treatment time.',
+          'Patients seeking dental veneer treatment in Pondicherry often choose veneers for comprehensive cosmetic improvements with minimal treatment time.',
       },
       {
         type: 'list',
@@ -2305,9 +2305,9 @@ export const serviceContent = {
     testimonials: [
       {
         quote:
-          'I had dental veneer treatment done at AVM Smiles in Puducherry and I couldn’t be happier. My smile looks perfectly natural and beautiful.',
+          'I had dental veneer treatment done at AVM Smiles in Pondicherry and I couldn’t be happier. My smile looks perfectly natural and beautiful.',
         name: 'Harini R.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'HR',
       },
       {
@@ -2319,16 +2319,16 @@ export const serviceContent = {
       },
       {
         quote:
-          'I wanted a smile makeover and went for teeth veneer treatment in Puducherry. I’ve gained so much confidence from the transformation.',
+          'I wanted a smile makeover and went for teeth veneer treatment in Pondicherry. I’ve gained so much confidence from the transformation.',
         name: 'Priya M.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'PM',
       },
       {
         quote:
           'From consultation to final placement, the entire veneer process was smooth and comfortable. The team paid attention to every detail, and I love my new smile.',
         name: 'Ananya V.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'AV',
       },
     ],
@@ -2360,26 +2360,26 @@ export const serviceContent = {
     ],
     closing: {
       heading: 'Book Your Veneer Consultation Today',
-      body: 'Get premium dental veneer treatment in Puducherry at AVM Smiles to enhance your smile. Our experienced cosmetic dentists use modern techniques and high-quality materials to design personalised smile makeovers. If you’re thinking about teeth veneer treatment in Puducherry or veneer treatment for teeth, AVM Smiles is here to help you achieve a confident, natural-looking smile. Book your consultation now and see the difference a beautiful smile can make.',
+      body: 'Get premium dental veneer treatment in Pondicherry at AVM Smiles to enhance your smile. Our experienced cosmetic dentists use modern techniques and high-quality materials to design personalised smile makeovers. If you’re thinking about teeth veneer treatment in Pondicherry or veneer treatment for teeth, AVM Smiles is here to help you achieve a confident, natural-looking smile. Book your consultation now and see the difference a beautiful smile can make.',
     },
   },
 
   'dental-implants-treatment': {
     seo: {
-      title: 'Best Dental Implants Treatment in Puducherry | AVM Smiles',
+      title: 'Best Dental Implants Treatment in Pondicherry | AVM Smiles',
       description:
-        'AVM Smiles offers the Best Dental Implants Treatment in Puducherry with advanced technology, expert dentists, and long-lasting smile restoration care.',
+        'AVM Smiles offers the Best Dental Implants Treatment in Pondicherry with advanced technology, expert dentists, and long-lasting smile restoration care.',
       keywords:
-        'dental implants cleaning in puducherry, dental implants treatment in puducherry',
+        'dental implants cleaning in pondicherry, dental implants treatment in pondicherry',
     },
     hero: {
-      h1: 'Dental Implants in Puducherry',
+      h1: 'Dental Implants in Pondicherry',
       lead: 'Permanent, natural-looking tooth replacement that functions like your own teeth and protects your jawbone — the gold standard in restoration.',
     },
     intro: {
       heading: 'Restore Your Smile Permanently with Advanced Dental Implants at AVM Smiles',
       paragraphs: [
-        'Missing teeth can affect your smile, confidence, speech and ability to chew comfortably. At AVM Smiles, our experienced dentists offer advanced dental implants treatment in Puducherry to replace missing teeth with strong, natural-looking and long-lasting solutions.',
+        'Missing teeth can affect your smile, confidence, speech and ability to chew comfortably. At AVM Smiles, our experienced dentists offer advanced dental implants treatment in Pondicherry to replace missing teeth with strong, natural-looking and long-lasting solutions.',
         'Dental implants are the gold standard for tooth replacement because they function like natural teeth and help maintain the jawbone. Whether you’re missing a single tooth or a full arch, our implant specialists design a customized treatment plan to bring back your smile and oral function.',
       ],
     },
@@ -2412,7 +2412,7 @@ export const serviceContent = {
           'Increased confidence and comfort',
         ],
         outro:
-          'Patients searching for dental implants treatment in Puducherry frequently choose them because they are durable and feel natural.',
+          'Patients searching for dental implants treatment in Pondicherry frequently choose them because they are durable and feel natural.',
       },
       {
         type: 'list',
@@ -2563,9 +2563,9 @@ export const serviceContent = {
       },
       {
         type: 'list',
-        heading: 'Dental Implants Cleaning in Puducherry',
+        heading: 'Dental Implants Cleaning in Pondicherry',
         intro:
-          'Keeping your dental implants well-maintained is essential for their longevity. AVM Smiles offers specialized dental implants cleaning in Puducherry to keep them healthy and avoid problems like peri-implantitis. Professional implant cleaning helps:',
+          'Keeping your dental implants well-maintained is essential for their longevity. AVM Smiles offers specialized dental implants cleaning in Pondicherry to keep them healthy and avoid problems like peri-implantitis. Professional implant cleaning helps:',
         items: [
           'Remove plaque and bacteria',
           'Protect gum health',
@@ -2575,7 +2575,7 @@ export const serviceContent = {
           'Support long-term oral hygiene',
         ],
         outro:
-          'Regular dental check-ups and professional dental implants cleaning in Puducherry play a significant role in successful implant results.',
+          'Regular dental check-ups and professional dental implants cleaning in Pondicherry play a significant role in successful implant results.',
       },
       {
         type: 'table',
@@ -2610,9 +2610,9 @@ export const serviceContent = {
     testimonials: [
       {
         quote:
-          'I had dental implants treatment in Puducherry at AVM Smiles. The results are amazing — my implant feels just like a natural tooth.',
+          'I had dental implants treatment in Pondicherry at AVM Smiles. The results are amazing — my implant feels just like a natural tooth.',
         name: 'Arun K.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'AK',
       },
       {
@@ -2626,14 +2626,14 @@ export const serviceContent = {
         quote:
           'My implants were professionally cleaned by the dentists at AVM Smiles. They are working perfectly and are healthy.',
         name: 'Ramesh V.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'RV',
       },
       {
         quote:
           'From surgery to follow-up care, the entire implant journey was smooth and well-managed. I can now eat comfortably without any issues.',
         name: 'Meena L.',
-        location: 'Puducherry',
+        location: 'Pondicherry',
         initials: 'ML',
       },
     ],
@@ -2656,7 +2656,7 @@ export const serviceContent = {
       },
       {
         q: 'Why is dental implants cleaning important?',
-        a: 'Professional dental implants cleaning in Puducherry helps prevent infection, maintain gum health and increase implant longevity.',
+        a: 'Professional dental implants cleaning in Pondicherry helps prevent infection, maintain gum health and increase implant longevity.',
       },
       {
         q: 'Am I eligible for dental implants?',
@@ -2665,7 +2665,7 @@ export const serviceContent = {
     ],
     closing: {
       heading: 'Book Your Dental Implant Consultation Today',
-      body: 'Restore your smile, confidence and oral function with advanced dental implants treatment in Puducherry at AVM Smiles. Whether you need a single implant, a full-mouth restoration or professional dental implants cleaning in Puducherry, AVM Smiles provides reliable care and successful treatment outcomes. Schedule your consultation today and take the first step toward a healthy, full smile.',
+      body: 'Restore your smile, confidence and oral function with advanced dental implants treatment in Pondicherry at AVM Smiles. Whether you need a single implant, a full-mouth restoration or professional dental implants cleaning in Pondicherry, AVM Smiles provides reliable care and successful treatment outcomes. Schedule your consultation today and take the first step toward a healthy, full smile.',
     },
   },
 }

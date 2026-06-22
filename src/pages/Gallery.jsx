@@ -15,7 +15,7 @@ export default function Gallery() {
       <Seo
         title="Gallery | AVM Smiles"
         description="Explore the AVM Smiles gallery featuring our modern dental clinic, advanced technology, treatment facilities, and patient care environment."
-        keywords="AVM Smiles gallery, dental clinic photos, dental treatment Puducherry, modern dental clinic, dental care facilities, dentist Puducherry"
+        keywords="AVM Smiles gallery, dental clinic photos, dental treatment Pondicherry, modern dental clinic, dental care facilities, dentist Pondicherry"
         path="/gallery"
       />
       <PageHeader

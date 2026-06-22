@@ -1,8 +1,8 @@
 ﻿/** Accordion FAQ content (also used for FAQPage structured data). */
 export const faqs = [
   {
-    q: 'What is the best dental clinic in Puducherry?',
-    a: 'AVM Smiles is widely regarded as one of the best dental clinics in Puducherry, combining experienced specialists, advanced digital dentistry and a patient-first approach. We offer the full range of treatments — from routine cleanings to dental implants and complete smile makeovers — under one roof.',
+    q: 'What is the best dental clinic in Pondicherry?',
+    a: 'AVM Smiles is widely regarded as one of the best dental clinics in Pondicherry, combining experienced specialists, advanced digital dentistry and a patient-first approach. We offer the full range of treatments — from routine cleanings to dental implants and complete smile makeovers — under one roof.',
   },
   {
     q: 'Do you place dental implants?',

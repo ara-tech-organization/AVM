@@ -453,7 +453,7 @@ export default function ServiceDetail() {
   return (
     <>
       <Seo
-        title={`${service.name} in Puducherry | AVM Smiles`}
+        title={`${service.name} in Pondicherry | AVM Smiles`}
         description={service.short}
         path={`/services/${service.slug}`}
       />
