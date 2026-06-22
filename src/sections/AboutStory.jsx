@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+﻿import { motion } from 'framer-motion'
 import { Target, Eye } from 'lucide-react'
 import Section from '../components/Section'
 import Eyebrow from '../components/Eyebrow'
@@ -43,7 +43,7 @@ export default function AboutStory() {
             <div className="overflow-hidden rounded-[2rem] shadow-float">
               <SmartImage
                 src={images.aboutTeam}
-                alt="The AVM Smiles dental team in Chennai"
+                alt="The AVM Smiles dental team in Puducherry"
                 className="aspect-[4/3] w-full"
                 imgClassName="transition-transform duration-700 hover:scale-105"
               />

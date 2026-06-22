@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+﻿import { motion } from 'framer-motion'
 import Seo from '../components/Seo'
 import PageHeader from '../components/PageHeader'
 import Section from '../components/Section'
@@ -15,7 +15,7 @@ export default function Gallery() {
       <Seo
         title="Gallery | AVM Smiles"
         description="Explore the AVM Smiles gallery featuring our modern dental clinic, advanced technology, treatment facilities, and patient care environment."
-        keywords="AVM Smiles gallery, dental clinic photos, dental treatment Chennai, modern dental clinic, dental care facilities, dentist Chennai"
+        keywords="AVM Smiles gallery, dental clinic photos, dental treatment Puducherry, modern dental clinic, dental care facilities, dentist Puducherry"
         path="/gallery"
       />
       <PageHeader

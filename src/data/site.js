@@ -1,10 +1,10 @@
-/**
+﻿/**
  * Single source of truth for clinic contact details, navigation and hours.
  * Replace the placeholder phone / email / address with the real values.
  */
 export const site = {
   name: 'AVM Smiles',
-  tagline: 'Best Dental Clinic in Chennai',
+  tagline: 'Best Dental Clinic in Puducherry',
   // --- Contact (placeholders — update with real details) ---
   phoneDisplay: '+91 98765 43210',
   phoneHref: 'tel:+919876543210',
@@ -12,17 +12,17 @@ export const site = {
   whatsappHref: 'https://wa.me/919876543210',
   email: 'care@avmsmiles.com',
   emailHref: 'mailto:care@avmsmiles.com',
-  address: 'No. 24, Anna Salai, T. Nagar, Chennai, Tamil Nadu 600017',
-  addressShort: 'T. Nagar, Chennai',
+  address: 'No. 24, Anna Salai, T. Nagar, Puducherry, Tamil Nadu 600017',
+  addressShort: 'T. Nagar, Puducherry',
   hoursDays: 'Monday – Saturday',
   hoursTime: '9:00 AM – 8:00 PM',
   hoursNote: 'Sunday by appointment only',
   rating: 4.9,
   reviewCount: 1280,
-  // Google Maps embed for Chennai (T. Nagar area)
+  // Google Maps embed for Puducherry (T. Nagar area)
   mapEmbed:
-    'https://www.google.com/maps?q=T.+Nagar,+Chennai,+Tamil+Nadu&output=embed',
-  mapLink: 'https://www.google.com/maps/place/T.+Nagar,+Chennai',
+    'https://www.google.com/maps?q=T.+Nagar,+Puducherry,+Tamil+Nadu&output=embed',
+  mapLink: 'https://www.google.com/maps/place/T.+Nagar,+Puducherry',
 }
 
 export const navLinks = [

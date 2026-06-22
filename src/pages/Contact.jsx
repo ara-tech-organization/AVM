@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+﻿import { motion } from 'framer-motion'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import Seo from '../components/Seo'
 import PageHeader from '../components/PageHeader'
@@ -21,8 +21,8 @@ export default function Contact() {
     <>
       <Seo
         title="Contact Us | AVM Smiles"
-        description="Contact AVM Smiles Dental Clinic in Chennai for appointments, dental consultations, implants, aligners, and comprehensive oral care services."
-        keywords="contact AVM Smiles, dental clinic Chennai contact, dentist appointment Chennai, dental consultation, dental implants Chennai, oral care"
+        description="Contact AVM Smiles Dental Clinic in Puducherry for appointments, dental consultations, implants, aligners, and comprehensive oral care services."
+        keywords="contact AVM Smiles, dental clinic Puducherry contact, dentist appointment Puducherry, dental consultation, dental implants Puducherry, oral care"
         path="/contact-us"
       />
       <PageHeader
@@ -109,7 +109,7 @@ export default function Contact() {
         >
           Visit{' '}
           <span className="font-semibold text-ink">AVM Smiles</span>, your trusted
-          destination for comprehensive dental health care in Chennai. We look
+          destination for comprehensive dental health care in Puducherry. We look
           forward to helping you maintain a healthy, confident smile for years to
           come.
         </motion.p>

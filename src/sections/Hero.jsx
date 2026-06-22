@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+﻿import { motion } from 'framer-motion'
 import { CalendarDays, ArrowRight, Star, ShieldCheck, Sparkles, HeartPulse, Smile } from 'lucide-react'
 import Container from '../components/Container'
 import Button from '../components/Button'
@@ -21,7 +21,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <SmartImage
           src={images.heroBackground}
-          alt="Modern AVM Smiles dental clinic interior in Chennai"
+          alt="Modern AVM Smiles dental clinic interior in Puducherry"
           loading="eager"
           className="h-full w-full"
           imgClassName="object-cover"
@@ -50,7 +50,7 @@ export default function Hero() {
                   <span className="absolute h-2 w-2 animate-ping rounded-full bg-accent-400/80" />
                   <span className="h-2 w-2 rounded-full bg-accent-500" />
                 </span>
-                Best Dental Clinic in Chennai
+                Best Dental Clinic in Puducherry
               </span>
             </motion.div>
 
@@ -64,14 +64,14 @@ export default function Hero() {
                   Best Dental Clinic
                 </span>
               </span>{' '}
-              in Chennai for Complete Smile Care
+              in Puducherry for Complete Smile Care
             </motion.h1>
 
             <motion.p
               variants={staggerItem}
               className="mt-6 max-w-xl text-base leading-relaxed text-white/75 sm:text-lg"
             >
-              AVM Smiles is a leading dental clinic in Chennai providing advanced
+              AVM Smiles is a leading dental clinic in Puducherry providing advanced
               dental treatments, experienced dentists and personalized care to all
               age groups.
             </motion.p>

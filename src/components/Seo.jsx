@@ -1,10 +1,10 @@
-/**
+﻿/**
  * SEO meta block. React 19 hoists <title>/<meta>/<link> rendered anywhere in
  * the tree into <head>, so each page can declare its own metadata declaratively.
  */
 export default function Seo({
-  title = 'Best Dental Clinic in Chennai | AVM Smiles',
-  description = 'AVM Smiles is the best dental clinic in Chennai, offering advanced dental treatments, expert dentists, and complete dental health care for all ages.',
+  title = 'Best Dental Clinic in Puducherry | AVM Smiles',
+  description = 'AVM Smiles is the best dental clinic in Puducherry, offering advanced dental treatments, expert dentists, and complete dental health care for all ages.',
   keywords,
   path = '/',
 }) {

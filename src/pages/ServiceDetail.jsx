@@ -1,4 +1,4 @@
-import { Link, useParams } from 'react-router-dom'
+﻿import { Link, useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import {
   CheckCircle2,
@@ -453,7 +453,7 @@ export default function ServiceDetail() {
   return (
     <>
       <Seo
-        title={`${service.name} in Chennai | AVM Smiles`}
+        title={`${service.name} in Puducherry | AVM Smiles`}
         description={service.short}
         path={`/services/${service.slug}`}
       />
